@@ -40,22 +40,24 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"resourceTerrainAllow": ["Forest"],
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["[+1 Gold] once [Economics] is discovered"],
+		"uniques": ["Does not need removal of [Forest]","[+1 Gold] once [Economics] is discovered"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 9,
-		"techRequired": "Biology"
+		"techRequired": "Biology",
+		"shortcutKey": "W"
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"]
+		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Plantation",
@@ -95,14 +97,15 @@
 		"name": "Road",
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
 		"shortcutKey": "R"
 	},
 	{
 		"name": "Railroad",
 		"turnsToBuild": 4,
 		"techRequired": "Steam Power",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"shortcutKey": "R"
 	},
 	
 	// Removals
@@ -158,38 +161,31 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"science": 8,
-		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered"]
+		"uniques": ["Great Improvement", "[+2 Science] once [Scientific Theory] is discovered"]
 	},
 	{
 		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"culture": 6,
-		"uniques": ["Great improvement"],
+		"uniques": ["Great Improvement"]
 	},
 	{
 		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 4,
-		"improvingTech": "Chemistry",
-		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
+		"uniques": ["Great Improvement", "[+1 Production] once [Chemistry] is discovered"]
 	},
 	{
 		"name": "Customs house",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 4,
-		"improvingTech": "Economics",
-		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
+		"uniques": ["Great Improvement", "[+1 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Citadel",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units",
-			"Great improvement"],
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement", "Can be built just outside your borders"]
 	},
 	
-	{ "name": "Ancient ruins" },
-	{ "name": "City ruins" },
-	{ "name": "Barbarian encampment" }
+	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
+	{ "name": "City ruins", "uniques": ["Unpillagable"] },
+	{ "name": "City center", "uniques": ["Unpillagable"] },
+	{ "name": "Barbarian encampment", "uniques": ["Unpillagable"] }
 ]

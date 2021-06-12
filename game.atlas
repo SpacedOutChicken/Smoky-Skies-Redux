@@ -1,8 +1,8 @@
 
 game.png
-size: 2048,512
+size: 2048, 512
 format: RGBA8888
-filter: MipMapLinearLinear,MipMapLinearLinear
+filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Aerodrome
   rotate: false
@@ -272,28 +272,28 @@ PolicyIcons/Educated Elite
   index: -1
 PolicyIcons/Nationalism
   rotate: false
-  xy: 1328, 251
+  xy: 1276, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Planned Economy
   rotate: false
-  xy: 1380, 251
+  xy: 1328, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Religious Tolerance
   rotate: false
-  xy: 1536, 251
+  xy: 1484, 251
   size: 48, 50
   orig: 48, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Socialism
   rotate: false
-  xy: 1484, 251
+  xy: 1432, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -487,9 +487,30 @@ TileSets/FantasyHex/Tiles/Aetherium
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/City center-Airship era
+  rotate: false
+  xy: 1534, 267
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Future era
+  rotate: false
+  xy: 157, 239
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Steam era
+  rotate: false
+  xy: 1258, 216
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Luboric
   rotate: false
-  xy: 1620, 273
+  xy: 1326, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -503,28 +524,28 @@ TileSets/FantasyHex/Units/Airship
   index: -1
 TileSets/FantasyHex/Units/Land Ironclad
   rotate: false
-  xy: 1586, 273
+  xy: 1568, 273
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Leviathan
   rotate: false
-  xy: 157, 245
+  xy: 1292, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship
   rotate: false
-  xy: 1258, 221
+  xy: 1602, 273
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sky Fortress
   rotate: false
-  xy: 1292, 209
+  xy: 1636, 261
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -564,16 +585,9 @@ UnitIcons/Sky Fortress
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Mobility I
-  rotate: false
-  xy: 1276, 251
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 UnitPromotionIcons/Repair
   rotate: false
-  xy: 1432, 251
+  xy: 1380, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
