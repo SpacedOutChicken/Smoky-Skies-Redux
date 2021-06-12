@@ -6,8 +6,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
-		"building": "Stable"
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Sheep",
@@ -15,8 +14,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Hill"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"food": 1},
-		"building": "Stable"
+		"improvementStats": {"food": 1}
 	},
 	{
 		"name": "Deer",
@@ -24,8 +22,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1},
-		"building": "Granary"
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Bananas",
@@ -33,8 +30,7 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"production": -1},
-		"building": "Granary"
+		"improvementStats": {"food": 2,"production": -1}
 	},
 	{
 		"name": "Wheat", 
@@ -42,8 +38,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
 		"improvement": "Farm",
-		"improvementStats": {"food": 1},
-		"building": "Granary"
+		"improvementStats": {"food": 1}
 	},
 	{
 		"name": "Stone",
@@ -60,8 +55,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1},
-		"building": "Lighthouse"
+		"improvementStats": {"food": 1}
 	},
 	
 	// Strategic resources
@@ -72,8 +66,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
-		"building": "Stable"
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Iron",
@@ -82,8 +75,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"building": "Forge"
+		"improvementStats": {"production": 1}
 	},
 	{
 		"name": "Coal",
@@ -156,7 +148,7 @@
 		"improvementStats": {"gold": 1}
 	},
 	{
-		"name": "Gold",
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
 		"gold": 2,
@@ -170,8 +162,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill"],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1},
-		"building": "Mint"
+		"improvementStats": {"gold": 1}
 	},
 	{
 		"name": "Incense",
@@ -179,8 +170,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
-		"building": "Monastery"
+		"improvementStats": {"gold": 1}
 	},
 	{
 		"name": "Ivory",
@@ -212,8 +202,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
-		"building": "Monastery"
+		"improvementStats": {"gold": 1}
 	},
 	{
 		"name": "Sugar",
@@ -230,8 +219,7 @@
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"unique": "+15% production towards Wonder construction",
-		"building": "Stone Works"
+		"unique": "+15% production towards Wonder construction"
 	},
 	{
 		"name": "Whales",

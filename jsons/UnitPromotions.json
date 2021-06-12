@@ -105,7 +105,7 @@
 		"unitTypes": ["Armor"]
 	},
 	{
-		"name": "Siege",
+		"name": "Besiege",
 		"prerequisites": ["Shock II","Drill II"],
 		"effect": "Bonus vs City 50%",
 		"unitTypes": ["Melee"]
@@ -301,25 +301,6 @@
 		"effect": "Bonus when intercepting [34]%",
 		"unitTypes": ["Fighter"]
 	},
-	/*
-	{
-		"name": "Dogfighting I",
-		"effect": "Bonus when performing air sweep [33]%", // todo
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Dogfighting II",
-		"prerequisites": ["Dogfighting I"],
-		"effect": "Bonus when performing air sweep [33]%",
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Dogfighting III",
-		"prerequisites": ["Dogfighting II"],
-		"effect": "Bonus when performing air sweep [34]%",
-		"unitTypes": ["Fighter"]
-	}
-	*/
 	
 	{
 		"name": "Sortie",

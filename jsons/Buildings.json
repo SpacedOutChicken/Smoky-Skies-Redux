@@ -43,18 +43,20 @@
         "science": 3,
         "gold": 13,
         "culture": 1,
+        "cityStrength": 2,
         "cost": 1,
-        "uniques": ["Indicates the capital city","Gain a free [Aqueduct] [in every city]",
-            "Gain a free [Barracks] [in every city]","Gain a free [Castle] [in every city]",
-            "Gain a free [Colosseum] [in every city]","Gain a free [Granary] [in every city]",
-            "Gain a free [Library] [in every city]","Gain a free [Lighthouse] [in every coastal city]",
-            "Gain a free [Monument] [in every city]","Gain a free [Theatre] [in every city]",
-            "Gain a free [Walls] [in every city]","Gain a free [Walls] [in every city]",
-            "Gain a free [Temple] [in every city]","Gain a free [Bank] [in every city]",
-            "Gain a free [Market] [in every city]","Gain a free [Opera House] [in every city]",
-            "Gain a free [Public School] [in every city]","Gain a free [University] [in every city]",
-            "Gain a free [Workshop] [in every city]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
-			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"]
+        "uniques": ["Indicates the capital city","Gain a free [Aqueduct] [in all cities]",
+            "Gain a free [Barracks] [in all cities]","Gain a free [Castle] [in all cities]",
+            "Gain a free [Colosseum] [in all cities]","Gain a free [Granary] [in all cities]",
+            "Gain a free [Library] [in all cities]","Gain a free [Lighthouse] [in all coastal cities]",
+            "Gain a free [Monument] [in all cities]","Gain a free [Theatre] [in all cities]",
+            "Gain a free [Walls] [in all cities]","Gain a free [Walls] [in all cities]",
+            "Gain a free [Temple] [in all cities]","Gain a free [Bank] [in all cities]",
+            "Gain a free [Market] [in all cities]","Gain a free [Opera House] [in all cities]",
+            "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
+            "Gain a free [Workshop] [in all cities]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"],
+        "replacementTextForUniques": "Indicates the capital city"
     },
     {
         "name": "Monument",
@@ -64,24 +66,27 @@
         "maintenance": 1
     },
     {
-        "name": "Granary", 
-        "food": 2,
-        "resourceBonusStats": {"food": 1},
-        "maintenance": 1,
-        "hurryCostModifier": 25,
-        "requiredTech": "Pottery"
-    },
+		"name": "Granary", 
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles in this city",
+			"[+1 Food] from [Bananas] tiles in this city",
+			"[+1 Food] from [Wheat] tiles in this city"],
+		"requiredTech": "Pottery"
+	},
     {
-        "name": "Stone Works", 
-        "happiness": 1,
-        "production": 1,
-        "requiredNearbyImprovedResources": ["Marble", "Stone"],
-        "resourceBonusStats": {"production": 1},
-        "maintenance": 1,
-        "hurryCostModifier": 0,
-        "uniques": ["Must not be on [Plains]"],
-        "requiredTech": "Calendar"
-    },
+		"name": "Stone Works", 
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles in this city",
+			"[+1 Production] from [Marble] tiles in this city"],
+		"requiredTech": "Calendar"
+	},
     {
         "name": "Library",
         "hurryCostModifier": 25,
@@ -124,21 +129,22 @@
     
     {
         "name": "Lighthouse",
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-        "resourceBonusStats": {"food": 1},
-        "uniques": ["Must be next to [Coast]","[+1 Food] from [Ocean] tiles in this city",
-            "[+1 Food] from [Coast] tiles in this city"],
-        "requiredTech": "Optics"
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles in this city",
+			"[+1 Food] from [Coast] tiles in this city", "[+1 Food] from [Fish] tiles in this city" ],
+		"requiredTech": "Optics"
     },
     {
-        "name": "Stable", // modded
-        "maintenance": 1,
-        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "resourceBonusStats": {"production": 1},
-        "hurryCostModifier": 25,
-        "requiredTech": "Horseback Riding"
-    },
+		"name": "Stable", 
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Cattle] tiles in this city",
+			"[+1 Production] from [Horses] tiles in this city",
+			"[+1 Production] from [Sheep] tiles in this city"],
+		"requiredTech": "Horseback Riding"
+	},
     {
         "name": "Courthouse",
         "maintenance": 4,
@@ -172,13 +178,13 @@
         "requiredTech": "Currency"
     },
     {
-        "name": "Mint",
-        "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Gold","Silver"],
-        "resourceBonusStats": {"gold": 2},
-        "hurryCostModifier": 25,
-        "requiredTech": "Currency"
-    },
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles in this city", "[+2 Gold] from [Silver] tiles in this city"],
+		"requiredTech": "Currency"
+	},
     {
         "name": "Aqueduct",
         "maintenance": 1,
@@ -198,13 +204,13 @@
         "requiredTech": "Theology"
     },
     {
-        "name": "Monastery",
-        "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Wine","Incense"],
-        "resourceBonusStats": {"culture": 2},
-        "hurryCostModifier": 25,
-        "requiredTech": "Theology"
-    },
+		"name": "Monastery",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Wine","Incense"],
+		"uniques": ["[+2 Culture] from [Wine] tiles in this city", "[+2 Culture] from [Incense] tiles in this city"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
     {
         "name": "Workshop", 
         "maintenance": 2,
@@ -219,9 +225,9 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "requiredNearbyImprovedResources": ["Iron"],
-        "resourceBonusStats": {"production": 1},
         "requiredTech": "Metal Casting",
-        "uniques": ["+[15]% production when building [land units] in this city"]
+        "uniques": ["+[15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles in this city"]
     },
     {
         "name": "Harbor",
@@ -311,7 +317,7 @@
         "maintenance": 3,
         "requiredBuilding": "Harbor",
         "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-            "Must be next to [Coast]", "+[15]% production when building [naval units] in this city"],
+			"Must be next to [Coast]", "+[15]% Production when constructing [Water] units [in this city]"],
         "requiredTech": "Navigation"
     },
     {
@@ -320,7 +326,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["Must not be on [Hill]", "+[10]% production when building [Buildings] in this city"],
+        "uniques": ["Must not be on [Hill]", "+[10]% production when building [Buildings] [in this city]"],
         "requiredTech": "Economics"
     },
     
@@ -400,8 +406,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-        "requiredBuildingInAllCities": "Difference Engine",
-		"uniques": ["Cost increases by [30] per owned city"],
+		"uniques": ["Cost increases by [30] per owned city","Requires a [Difference Engine] in all cities"],
         "requiredTech": "Analog Computation"
     },
     {
@@ -416,7 +421,7 @@
     },
     {
         "name": "Grand Mansion",
-        "culure": 3,
+        "culture": 3,
         "gold": 4,
         "cost": 500,
         "hurryCostModifier": 25,
@@ -430,7 +435,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-        "requiredBuildingInAllCities": "Grand Mansion",
+        "uniques": ["Requires a [Grand Mansion] in all cities"],
         "requiredTech": "Analog Computation"
     },
     {
@@ -467,13 +472,12 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city"],
-        "requiredBuildingInAllCities": "Patent Office",
+		"uniques": ["Cost increases by [30] per owned city", "Requires a [Patent Office] in all cities"],
         "requiredTech": "Landships"
     },
     {
        	"name": "Trade College",
-        "culure": 2,
+        "culture": 2,
         "percentStatBonus": {"science": 33},
         "cost": 500,
         "hurryCostModifier": 25,
@@ -557,7 +561,7 @@
     {
         "name": "Tesla Coil",
         "gold": 3,
-        "percentStatBonus": {"science": 33},
+        "uniques": ["+[33]% [Science] [in this city]"],
         "maintenance": 0,
         "cost": 500,
         "hurryCostModifier": 25,
@@ -568,11 +572,10 @@
         "replaces": "Tesla Coil",
         "uniqueTo": "Vedria",
         "gold": 3,
-        "percentStatBonus": {"science": 50},
         "maintenance": 0,
         "cost": 500,
         "hurryCostModifier": 25,
-        "uniques": ["Science +50% vs +33%"],
+        "uniques": ["+[50]% [Science] [in this city]"],
         "requiredTech": "Galvanomagnetism"
     },
     {
@@ -619,7 +622,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "uniques": ["New [Air] units start with [15] Experience", "New [Mounted] units start with [15] Experience",
-            "+[15]% production when building [mounted units] in this city"],
+            "+[15]% Production when constructing [Mounted] units [in this city]"],
         "requiredTech": "Uranography"
     },    
     {
@@ -646,8 +649,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city"],
-        "requiredBuildingInAllCities": "Philanthroporium",
+		"uniques": ["Cost increases by [30] per owned city", "Requires a [Philanthroporium] in all cities"],
         "requiredTech": "Radio"
     },
     {
@@ -675,8 +677,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city"],
-        "requiredBuildingInAllCities": "Subterranean Outpost",
+		"uniques": ["Cost increases by [30] per owned city", "Requires a [Subterranean Outpost] in all cities"],
         "requiredTech": "Subterranean Exploration"
     },
 	{
@@ -687,7 +688,7 @@
 		"cost": 1250,
 		"greatPersonPoints": {"production": 1},
 		"providesFreeBuilding": "Broadcast Tower",
-		"uniques": ["+1 population in each city","[+1 Happiness] in all cities"],
+		"uniques": ["+1 population in each city","[+1 Happiness] [in all cities]"],
         "requiredTech": "Technocracy",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
 	},
@@ -698,7 +699,7 @@
         "isNationalWonder": true,
         "cost": 1000,
         "maintenance": 0,
-        "requiredBuildingInAllCities": "Automated Factory",
+        "uniques": ["Requires a [Automated Factory] in all cities"],
         "requiredTech": "Perpetual Motion"
     }
 ]
