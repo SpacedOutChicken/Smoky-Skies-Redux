@@ -1,0 +1,536 @@
+[	
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 681,
+		"uniques": ["Founds a new city"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 70
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles until Astronomy","May create improvements on water resources"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["Ignores terrain cost"],
+		"obsoleteTech": "Scientific Theory",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Brute",
+		"unitType": "Melee",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources"]
+	},
+	{
+		"name": "Trireme",
+		"unitType": "WaterMelee",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Bonus vs Mounted 50%"],
+		"attackSound": "metalhit"
+	},
+	
+	/* Classical Era */
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
+			"Must set up to ranged attack", "Limited Visibility"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+
+	{
+		"name": "Swordsman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	// Medieval Era
+	{
+		"name": "Crossbowman",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["Bonus vs Mounted 50%"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "WaterRanged",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"attackSound": "horse"
+	},
+	
+	// Rennaisance Era
+
+
+	{
+		"name": "Caravel",
+		"unitType": "WaterMelee",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"uniques": ["+1 Visibility Range","May withdraw before melee ([50]%)"],
+		"hurryCostModifier": 30
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"]
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "WaterRanged",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Eruptives",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"promotions": ["Formation I"],
+		"obsoleteTech": "Steam Power",
+		"attackSound": "horse"
+	},
+	
+	// Industrial Era
+	
+	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Economic Imperialism",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Steam Power",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
+			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"]
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "WaterMelee",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Propulsion",
+		"uniques": ["Bonus vs City 33%","Double movement in coast"]
+	},
+	{
+		"name": "Land Ironclad",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 60,
+		"cost": 375,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20
+	},
+
+	// Steam Era
+
+	{
+		"name": "Great War Infantry",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Economic Imperialism",
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Flyer",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 18,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 400,
+		"requiredTech": "Propulsion",
+		"hurryCostModifier": 20,
+		"uniques": ["[50]% chance to intercept air attacks","Bonus vs Fighter 150%","Bonus vs Mounted 300%"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "WaterMelee",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Propulsion",
+		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
+			"May withdraw before melee ([50]%)","Bonus vs WaterSubmarine 100%"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Battleship",
+		"unitType": "WaterRanged",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Eruptives",
+		"uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Submarine",
+		"unitType": "WaterSubmarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "Expedition",
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack water",
+			"Can attack submarines", "Can enter ice tiles"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 450,
+		"requiredTech": "Landships",
+		"requiredResource": "Luboric",
+		"upgradesTo": "Land Leviathan",
+		"obsoleteTech": "Land Leviathan",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Airship",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 65,
+		"cost": 475,
+		"requiredTech": "Airships",
+		"requiredResource": "Aetherium",
+		"upgradesTo": "Sky Fortress",
+		"obsoleteTech": "Sky Fortress",
+		"uniques": ["Bonus vs Armor 100%","All tiles cost 1 movement","Can pass through impassable tiles",
+			"No defensive terrain bonus","Unable to capture cities"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Land Leviathan",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 85,
+		"cost": 525,
+		"requiredTech": "Land Leviathan",
+		"requiredResource": "Luboric",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Melee",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Civil Defense",
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%","Bonus vs Mounted 150%"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Sky Fortress",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 80,
+		"cost": 575,
+		"requiredTech": "Sky Fortress",
+		"requiredResource": "Aetherium",
+		"uniques": ["Can carry 2 aircraft","All tiles cost 1 movement","Can pass through impassable tiles",
+			"Bonus vs Armor 100%","No defensive terrain bonus","Unable to capture cities"],
+		"hurryCostModifier": 20
+	},
+	//  Great People
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	}
+]
