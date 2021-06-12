@@ -41,7 +41,7 @@
         "isNationalWonder": true,
         "production": 3,
         "science": 3,
-        "gold": 13,
+        "gold": 3,
         "culture": 1,
         "cityStrength": 2,
         "cost": 1,
@@ -55,7 +55,8 @@
             "Gain a free [Market] [in all cities]","Gain a free [Opera House] [in all cities]",
             "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
             "Gain a free [Workshop] [in all cities]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
-			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"],
+			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced",
+            "[+5 Gold] [in all cities]"],
         "replacementTextForUniques": "Indicates the capital city"
     },
     {
