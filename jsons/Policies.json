@@ -104,7 +104,7 @@
 			},
 			{
 				"name": "Communism",
-				"uniques": ["[+2 Production] in all cities","[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]"],
+				"uniques": ["[+2 Production] [in all cities]","[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]"],
 				"row": 1,
 				"column": 4
 			},
