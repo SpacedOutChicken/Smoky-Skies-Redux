@@ -18,7 +18,7 @@
 			},
 			{
 				"name": "Aristocracy",
-				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population in all cities"],
+				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population [in all cities]"],
 				"requires": ["United Front"],
 				"row": 2,
 				"column": 2

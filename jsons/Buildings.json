@@ -45,16 +45,18 @@
         "culture": 1,
         "cityStrength": 2,
         "cost": 1,
-        "uniques": ["Indicates the capital city","Gain a free [Aqueduct] [in all cities]",
+        "uniques": ["Indicates the capital city",
+            "Gain a free [Aqueduct] [in all cities]",
             "Gain a free [Barracks] [in all cities]","Gain a free [Castle] [in all cities]",
             "Gain a free [Colosseum] [in all cities]","Gain a free [Granary] [in all cities]",
             "Gain a free [Library] [in all cities]","Gain a free [Lighthouse] [in all coastal cities]",
             "Gain a free [Monument] [in all cities]","Gain a free [Theatre] [in all cities]",
-            "Gain a free [Walls] [in all cities]","Gain a free [Walls] [in all cities]",
+            "Gain a free [Walls] [in all cities]",
             "Gain a free [Temple] [in all cities]","Gain a free [Bank] [in all cities]",
             "Gain a free [Market] [in all cities]","Gain a free [Opera House] [in all cities]",
             "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
-            "Gain a free [Workshop] [in all cities]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+            "Gain a free [Workshop] [in all cities]",
+            "Double quantity of [Coal] produced","Double quantity of [Oil] produced",
 			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced",
             "[+5 Gold] [in all cities]"],
         "replacementTextForUniques": "Indicates the capital city"
@@ -92,7 +94,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "uniques": ["[+1 Science] Per [2] Population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -340,7 +342,7 @@
         "requiredBuilding": "University",
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "uniques": ["[+1 Science] Per [2] Population [in this city]"],
         "requiredTech": "Scientific Theory"
     },
     {
