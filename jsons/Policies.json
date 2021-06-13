@@ -117,7 +117,7 @@
 			},
 			{
 				"name": "Fascism",
-				"uniques": ["Quantity of strategic resources produced by the empire increased by 100%","+[2] Movement for all [Civilian] units"],
+				"uniques": ["Quantity of strategic resources produced by the empire increased by 100%","+[2] Movement for all [Great General] units"],
 				"requires": ["Planned Economy"],
 				"row": 3,
 				"column": 4
