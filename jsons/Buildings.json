@@ -341,7 +341,7 @@
         "requiredBuilding": "University",
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] Per [2] Population [in this city]"],
+        "uniques": ["[+1 Science] Per [2] population [in this city]"],
         "requiredTech": "Scientific Theory"
     },
     {
