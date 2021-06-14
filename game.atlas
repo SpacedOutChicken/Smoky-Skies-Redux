@@ -258,14 +258,14 @@ NationIcons/Vedria
   index: -1
 PolicyIcons/Communism
   rotate: false
-  xy: 105, 257
+  xy: 1224, 255
   size: 50, 46
   orig: 50, 46
   offset: 0, 0
   index: -1
 PolicyIcons/Educated Elite
   rotate: false
-  xy: 1224, 251
+  xy: 1224, 203
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -300,7 +300,7 @@ PolicyIcons/Socialism
   index: -1
 PolicyIcons/United Front
   rotate: false
-  xy: 105, 216
+  xy: 1276, 210
   size: 50, 39
   orig: 50, 39
   offset: 0, 0
@@ -482,70 +482,70 @@ TechIcons/The Grand Idea
   index: -1
 TileSets/FantasyHex/Tiles/Aetherium
   rotate: false
-  xy: 157, 275
+  xy: 1328, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Airship era
   rotate: false
-  xy: 1534, 267
+  xy: 1568, 267
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Future era
   rotate: false
-  xy: 157, 239
+  xy: 1602, 267
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Steam era
   rotate: false
-  xy: 1258, 216
+  xy: 1636, 268
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Luboric
   rotate: false
-  xy: 1326, 221
+  xy: 1704, 273
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Airship
   rotate: false
-  xy: 1224, 209
+  xy: 1534, 261
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Ironclad
   rotate: false
-  xy: 1568, 273
+  xy: 1362, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Leviathan
   rotate: false
-  xy: 1292, 221
+  xy: 1670, 273
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship
   rotate: false
-  xy: 1602, 273
+  xy: 1396, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sky Fortress
   rotate: false
-  xy: 1636, 261
+  xy: 196, 261
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -576,6 +576,13 @@ UnitIcons/Land Leviathan
   xy: 510, 303
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Privateer
+  rotate: false
+  xy: 105, 227
+  size: 89, 76
+  orig: 89, 76
   offset: 0, 0
   index: -1
 UnitIcons/Sky Fortress

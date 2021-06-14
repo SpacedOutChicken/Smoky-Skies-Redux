@@ -61,47 +61,47 @@
 		"unitTypes": ["Ranged","Siege"]
 	},
 	
-	// Melee, Armor
+	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 
 	{
 		"name": "Drill I",
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"effect": "+[33]% Strength vs [wounded units]",
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Mounted","Armor"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
@@ -113,20 +113,20 @@
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"],
 		"effect": "+[33]% Strength vs [Mounted]",
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Melee","Mounted"]
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"effect": "+[33]% Strength vs [Mounted]",
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Melee","Mounted"]
 	},
 	
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"effect": "1 additional attack per turn",
-		"unitTypes": ["Melee","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
 		"name": "Woodsman",
@@ -144,13 +144,13 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II"],
 		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
-		"unitTypes": ["Melee","Scout"]
+		"unitTypes": ["Melee","Mounted","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
-		"unitTypes": ["Melee","Scout"]
+		"unitTypes": ["Melee","Mounted","Scout"]
 	},
 	
 	// Scout
@@ -176,19 +176,19 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"effect": "+[33]% Strength vs [Water units]",
+		"effect": "+[33]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"effect": "+[33]% Strength vs [Water units]",
+		"effect": "+[33]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"effect": "+[33]% Strength vs [Water units]",
+		"effect": "+[33]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	
@@ -267,25 +267,25 @@
 
 	// Bomber
 	{
-		"name": "Besiege I",
+		"name": "Siege I",
 		"effect": "+[33]% Strength vs [City]",
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Besiege II",
-		"prerequisites": ["Besiege I"],
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
 		"effect": "+[33]% Strength vs [City]",
 		"unitTypes": ["Bomber"]
 	},
 	{
-		"name": "Besiege III",
-		"prerequisites": ["Besiege II"],
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
 		"effect": "+[34]% Strength vs [City]",
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Besiege II", "Bombardment II"],
+		"prerequisites": ["Siege II", "Bombardment II"],
 		"effect": "Reduces damage taken from interception by 50%",
 		"unitTypes": ["Bomber"]
 	},
@@ -337,13 +337,13 @@
 	
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Besiege I", "Bombardment I"],
+		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
 		"effect": "+2 Range",
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Besiege II", "Bombardment II"],
+		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Siege II", "Bombardment II"],
 		"effect": "Unit will heal every turn, even if it performs an action",
 		"unitTypes": ["Fighter","Bomber"]
 	},
@@ -365,57 +365,39 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Melee","Ranged","Siege"]
+		"unitTypes": ["Melee","Ranged","Siege","Mounted"]
 	},
 	{
 		"name": "Mobility",
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"effect": "+1 Movement",
-		"unitTypes": ["WaterMelee","WaterRanged","Armor","WaterSubmarine"]
-	},
-
-	//Mounted = Airship
-	{
-		"name": "Mobility I",
-		"effect": "+1 Movement",
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Mobility II",
-		"prerequisites": ["Mobility I"],
-		"effect": "+1 Movement",
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Ambush I",
-		"effect": "+[25]% Strength vs [Armor]",
-		"unitTypes": ["Melee","Fighter","Bomber","Mounted"]
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"effect": "+[25]% Strength vs [Armor]",
-		"unitTypes": ["Melee","Fighter","Bomber","Mounted"]
-	},
-	{
-		"name": "Repair",
-		"prerequisites": ["Mobility II","Ambush II"],
-		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Mounted"]
+		"unitTypes": ["Mounted","WaterMelee","WaterRanged","Armor","WaterSubmarine"]
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Ambush I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"effect": "+1 Visibility Range",
 		"unitTypes": ["Melee","Mounted","WaterRanged","Armor","WaterMelee"]
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Besiege III"],
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III"],
 		"effect": "1 additional attack per turn",
 		"unitTypes": ["Ranged","Siege","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber"]
+	},
+	
+	{
+		"name": "Ambush I",
+		"effect": "+[25]% Strength vs [Armor]",
+		"unitTypes": ["Melee","Fighter","Bomber"]
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"effect": "+[25]% Strength vs [Armor]",
+		"unitTypes": ["Melee","Fighter","Bomber"]
 	},
 	
 	
@@ -446,7 +428,7 @@
 	},
 	{
 		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I","Dogfighting I", "Besiege I","Bombardment I"],
+		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
 		"effect": "+[15]% Strength vs [water units]",
 		"unitTypes": ["Fighter","Bomber"]
 	},

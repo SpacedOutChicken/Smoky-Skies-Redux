@@ -57,8 +57,7 @@
             "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
             "Gain a free [Workshop] [in all cities]",
             "Double quantity of [Coal] produced","Double quantity of [Oil] produced",
-			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced",
-            "[+5 Gold] [in all cities]"],
+			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"],
         "replacementTextForUniques": "Indicates the capital city"
     },
     {
@@ -242,7 +241,7 @@
     },
     {
         "name": "University",
-        "maintenance": 2,
+        "maintenance": 0,
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
@@ -276,7 +275,7 @@
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 10,
         "requiredBuilding": "Temple",
-        "maintenance": 2,
+        "maintenance": 1,
         "requiredTech": "Acoustics"
     },
     {
@@ -292,7 +291,7 @@
         "name": "Theatre",
         "happiness": 3,
         "hurryCostModifier": 10,
-        "maintenance": 2,
+        "maintenance": 0,
         "requiredBuilding": "Colosseum",
         "requiredTech": "Printing Press"
     },
@@ -340,7 +339,7 @@
         "science": 3,
         "specialistSlots": {"Scientist": 1},
         "requiredBuilding": "University",
-        "maintenance": 3,
+        "maintenance": 1,
         "hurryCostModifier": 0,
         "uniques": ["[+1 Science] Per [2] Population [in this city]"],
         "requiredTech": "Scientific Theory"
@@ -440,7 +439,7 @@
         "cost": 750,
         "maintenance": 0,
         "uniques": ["Requires a [Grand Mansion] in all cities"],
-        "requiredTech": "Analog Computation"
+        "requiredTech": "Economic Imperialism"
     },
     {
         "name": "Stock Exchange",
@@ -477,7 +476,7 @@
         "cost": 750,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city", "Requires a [Patent Office] in all cities"],
-        "requiredTech": "Landships"
+        "requiredTech": "Airships"
     },
     {
        	"name": "Trade College",
@@ -547,7 +546,7 @@
     },
     {
         "name": "Philanthroporium",
-        "culure": 5,
+        "culture": 5,
         "happiness": 2,
         "cost": 500,
         "maintenance": 2,
@@ -615,7 +614,7 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Air] units start with [15] Experience", "New [Mounted] units start with [15] Experience"],
+        "uniques": ["New [Air] units start with [15] Experience", "New [Airship] units start with [15] Experience"],
         "requiredTech": "Uranography"
     },
     {
@@ -625,14 +624,14 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Air] units start with [15] Experience", "New [Mounted] units start with [15] Experience",
-            "+[15]% Production when constructing [Mounted] units [in this city]"],
+        "uniques": ["New [Air] units start with [15] Experience", "New [Airship] units start with [15] Experience",
+            "+[15]% Production when constructing [Airship] units [in this city]", "+[15]% Production when constructing [Sky Fortress] units [in this city]"],
         "requiredTech": "Uranography"
     },    
     {
         "name": "Military Base",
         "cost": 500,
-        "cityStrength": 9,
+        "cityStrength": 12,
         "cityHealth": 25,
         "maintenance": 0,
         "hurryCostModifier": 25,
@@ -650,6 +649,7 @@
     {
         "name": "Carnegie Hall",
         "culture": 7,
+        "happiness": 2,
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
@@ -658,10 +658,10 @@
     },
     {
         "name": "Automated Factory",
-        "happiness": 3,
+        "happiness": 2,
         "percentStatBonus": {"production": 15},
         "cost": 500,
-        "maintenance": 0,
+        "maintenance": 2,
         "hurryCostModifier": 25,
         "requiredTech": "Robotics"
     },
@@ -690,9 +690,9 @@
         "happiness": 10,
 		"culture": 1,
 		"cost": 1250,
-		"greatPersonPoints": {"production": 1},
+		"greatPersonPoints": {"gold": 1},
 		"providesFreeBuilding": "Broadcast Tower",
-		"uniques": ["+1 population in each city","[+1 Happiness] [in all cities]"],
+		"uniques": ["+1 population in each city","[+1 Happiness] [in all cities]","Gain a free [Broadcast Tower] [in all cities]"],
         "requiredTech": "Technocracy",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
 	},

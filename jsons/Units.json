@@ -111,7 +111,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
 	},
 	
@@ -126,7 +126,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
+		"uniques": ["+[200]% Strength vs [City]", "No defensive terrain bonus",
 			"Must set up to ranged attack", "Limited Visibility"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -155,7 +155,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -183,7 +183,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
 		"attackSound": "throw"
 	},
 	{
@@ -205,7 +205,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%"],
+		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -233,7 +233,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"attackSound": "horse"
 	},
 	
@@ -262,7 +262,7 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"]
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"]
 	},
 	{
 		"name": "Musketman",
@@ -284,9 +284,21 @@
 		"cost": 185,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Eruptives",
+		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20
+	},
+	{
+		"name": "Privateer", //modded
+		"unitType": "WaterMelee",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["Can move after attacking","Heals [25] damage if it kills a unit"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Lancer",
@@ -296,7 +308,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]"],
 		"promotions": ["Formation I"],
 		"obsoleteTech": "Steam Power",
 		"attackSound": "horse"
@@ -322,7 +334,6 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Economic Imperialism",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -333,10 +344,9 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
-		"obsoleteTech": "Steam Power",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"attackSound": "horse"
 	},
 	{
@@ -348,7 +358,7 @@
 		"range": 3,
 		"cost": 320,
 		"requiredTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus",
 			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"]
 	},
 	{
@@ -360,8 +370,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Propulsion",
-		"uniques": ["Bonus vs City 33%","Double movement in coast"]
+		"uniques": ["+[33]% Strength vs [City]","Double movement in coast"]
 	},
 	{
 		"name": "Land Ironclad",
@@ -398,7 +407,8 @@
 		"cost": 400,
 		"requiredTech": "Propulsion",
 		"hurryCostModifier": 20,
-		"uniques": ["[50]% chance to intercept air attacks","Bonus vs Fighter 150%","Bonus vs Mounted 300%"],
+		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Airship]",
+			"6 tiles in every direction always visible"],
 		"attackSound": "shot"
 	},
 	{
@@ -410,7 +420,7 @@
 		"cost": 375,
 		"requiredTech": "Propulsion",
 		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
-			"May withdraw before melee ([50]%)","Bonus vs WaterSubmarine 100%"],
+			"May withdraw before melee ([50]%)","+[100]% Strength vs [WaterSubmarine]"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -418,12 +428,12 @@
 		"unitType": "WaterRanged",
 		"movement": 5,
 		"strength": 55,
-		"rangedStrength": 55,
+		"rangedStrength": 65,
 		"range": 3,
 		"cost": 375,
-		"requiredResource": "Oil",
+		"requiredResource": "Coal",
 		"requiredTech": "Eruptives",
-		"uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+		"uniques": ["Ranged attacks may be performed over obstacles", "+[30]% Strength vs [City]"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -442,7 +452,7 @@
 		"name": "Landship",
 		"unitType": "Armor",
 		"movement": 4,
-		"strength": 60,
+		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Landships",
 		"requiredResource": "Luboric",
@@ -453,15 +463,14 @@
 	},
 	{
 		"name": "Airship",
-		"unitType": "Mounted",
+		"unitType": "Melee",
 		"movement": 4,
 		"strength": 65,
 		"cost": 475,
 		"requiredTech": "Airships",
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
-		"obsoleteTech": "Sky Fortress",
-		"uniques": ["Bonus vs Armor 100%","All tiles cost 1 movement","Can pass through impassable tiles",
+		"uniques": ["Airship","+[100]% Strength vs [Armor]","All tiles cost 1 movement","Can pass through impassable tiles",
 			"No defensive terrain bonus","Unable to capture cities"],
 		"hurryCostModifier": 20
 	},
@@ -484,20 +493,20 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Civil Defense",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%","Bonus vs Mounted 150%"],
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[150]% Strength vs [Airship]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Sky Fortress",
-		"unitType": "Mounted",
+		"unitType": "Melee",
 		"movement": 4,
 		"strength": 80,
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Can carry 2 aircraft","All tiles cost 1 movement","Can pass through impassable tiles",
-			"Bonus vs Armor 100%","No defensive terrain bonus","Unable to capture cities"],
+		"uniques": ["Airship","Can carry 2 aircraft","All tiles cost 1 movement","Can pass through impassable tiles",
+			"+[100]% Strength vs [Armor]","No defensive terrain bonus","Unable to capture cities"],
 		"hurryCostModifier": 20
 	},
 	//  Great People

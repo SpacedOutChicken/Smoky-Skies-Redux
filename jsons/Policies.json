@@ -140,7 +140,7 @@
 			},
 			{
 				"name": "Meritocracy",
-				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "Unhappiness from population decreased by [5]%"],
+				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "Unhappiness from population decreased by [5]% [in all non-occupied cities]"],
 				"row": 1,
 				"column": 4
 			},
