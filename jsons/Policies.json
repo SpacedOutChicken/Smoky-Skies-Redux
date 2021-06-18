@@ -177,7 +177,7 @@
 		"policies": [
 			{
 				"name": "Discipline",
-				"uniques":["+15% combat strength for melee units which have another military unit in an adjacent tile"],
+				"uniques":["+[15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
 				"row": 1,
 				"column": 2
 			},
