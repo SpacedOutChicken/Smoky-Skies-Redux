@@ -160,7 +160,7 @@
 			},
 			{
 				"name": "Protectionism",
-				"uniques": ["+1 happiness from each type of luxury resource"],
+				"uniques": ["+[2] happiness from each type of luxury resource"],
 				"requires": ["Mercantilism"],
 				"row": 3,
 				"column": 4
