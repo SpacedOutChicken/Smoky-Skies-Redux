@@ -56,8 +56,7 @@
             "Gain a free [Market] [in all cities]","Gain a free [Opera House] [in all cities]",
             "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
             "Gain a free [Workshop] [in all cities]",
-            "Double quantity of [Coal] produced","Double quantity of [Oil] produced",
-			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"],
+            "Quantity of strategic resources produced by the empire +[100]%"],
         "replacementTextForUniques": "Indicates the capital city"
     },
     {
@@ -142,7 +141,8 @@
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Cattle] tiles in this city",
+		"uniques": ["+[15]% Production when constructing [Mounted] units [in this city]",
+            "[+1 Production] from [Cattle] tiles in this city",
 			"[+1 Production] from [Horses] tiles in this city",
 			"[+1 Production] from [Sheep] tiles in this city"],
 		"requiredTech": "Horseback Riding"

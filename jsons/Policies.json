@@ -25,7 +25,7 @@
 			},
 			{
 				"name": "Democracy",
-				"uniques": ["Specialists produce half normal unhappiness"],
+				"uniques": ["Specialists only produce [50]% of normal unhappiness"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 4
@@ -117,7 +117,7 @@
 			},
 			{
 				"name": "Fascism",
-				"uniques": ["Quantity of strategic resources produced by the empire increased by 100%","+[2] Movement for all [Great General] units"],
+				"uniques": ["Quantity of strategic resources produced by the empire +[100]%","+[2] Movement for all [Great General] units"],
 				"requires": ["Planned Economy"],
 				"row": 3,
 				"column": 4
@@ -146,7 +146,7 @@
 			},
 			{
 				"name": "Free Speech",
-				"uniques": ["-33% unit upkeep costs"],
+				"uniques": ["[8] units cost no maintenance"],
 				"requires": ["Trade Unions"],				
 				"row": 2,
 				"column": 2
@@ -203,7 +203,7 @@
 			},
 			{
 				"name": "Militarism",
-				"uniques": ["Gold cost of purchasing units -33%"],
+				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%"],
 				"requires": ["Military Tradition","Nationalism"],
 				"row": 2,
 				"column": 4
