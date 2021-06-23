@@ -32,7 +32,7 @@
 			},
 			{
 				"name": "Educated Elite",
-				"uniques": ["Free Great Person", "+[25]% great person generation in all cities"],
+				"uniques": ["Allied City-States will occasionally gift Great People"],
 				"requires": ["Democracy"],
 				"row": 3,
 				"column": 4
