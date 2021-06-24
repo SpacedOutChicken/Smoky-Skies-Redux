@@ -195,7 +195,7 @@
 			},
 			{
 				"name": "Professional Army",
-				"uniques": ["Gold cost of upgrading military units reduced by 33%","[+1 Happiness] from every [Walls]","[+1 Happiness] from every [Castle]",
+				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%","[+1 Happiness] from every [Walls]","[+1 Happiness] from every [Castle]",
 					"[+1 Happiness] from every [Arsenal]","[+1 Happiness] from every [Military Base]"],
 				"requires": ["Discipline","Military Tradition"],
 				"row": 2,
@@ -203,7 +203,7 @@
 			},
 			{
 				"name": "Militarism",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%"],
+				"uniques": ["Gold cost of purchasing [All] units -[33]%"],
 				"requires": ["Military Tradition","Nationalism"],
 				"row": 2,
 				"column": 4
