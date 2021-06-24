@@ -55,7 +55,7 @@
 			},
 			{
 				"name": "Legalism",
-				"uniques":["Immediately creates a cheapest available cultural building in each of your first 4 cities for free"],
+				"uniques":["Immediately creates the cheapest available cultural building in each of your first [4] cities for free"],
 				"row": 1,
 				"column": 4
 			},
