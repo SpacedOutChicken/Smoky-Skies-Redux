@@ -692,7 +692,7 @@
 		"cost": 1250,
 		"greatPersonPoints": {"gold": 1},
 		"providesFreeBuilding": "Broadcast Tower",
-		"uniques": ["+1 population in each city","[+1 Happiness] [in all cities]","Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["[+1] population [in all cities]","[+1 Happiness] [in all cities]","Gain a free [Broadcast Tower] [in all cities]"],
         "requiredTech": "Technocracy",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
 	},
