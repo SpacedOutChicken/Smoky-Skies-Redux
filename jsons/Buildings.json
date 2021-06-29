@@ -6,31 +6,31 @@
         "isNationalWonder": true,
         "requiredBuilding": "Palace",
         "requiredTech": "Landships",
-        "uniques": ["Enables construction of Spaceship parts"]
+        "uniques": ["Enables construction of Spaceship parts","Triggers a global alert upon completion"]
     },
     {
         "name": "SS Booster", // Grand Philanthropist
         "cost": 1500,
         "requiredTech": "Noblesse Oblige",
-        "uniques": ["Spaceship part", "Cannot be purchased"]
+        "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },
     {
         "name": "SS Cockpit", // Captain of Industry
         "cost": 1500,
         "requiredTech": "Automata",
-        "uniques": ["Spaceship part", "Cannot be purchased"]
+        "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },    
     {
         "name": "SS Engine", // Lord of Refinement
         "cost": 2000,
         "requiredTech": "Technocracy",
-        "uniques": ["Spaceship part", "Cannot be purchased"]
+        "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },
     {
         "name": "SS Stasis Chamber", // Master of Wealth
         "cost": 2000,
         "requiredTech": "Perpetual Motion",
-        "uniques": ["Spaceship part", "Cannot be purchased"]
+        "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },
 
     // Real Buildings
