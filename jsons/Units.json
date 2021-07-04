@@ -505,7 +505,7 @@
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Airship","Can carry 2 aircraft","All tiles cost 1 movement","Can pass through impassable tiles",
+		"uniques": ["Airship","Can carry [1] [Air] units","All tiles cost 1 movement","Can pass through impassable tiles",
 			"+[100]% Strength vs [Armor]","No defensive terrain bonus","Unable to capture cities"],
 		"hurryCostModifier": 20
 	},
