@@ -12,7 +12,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -25,8 +25,8 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Scout",
-		"unitType": "Scout",
+		"name": "Scouter",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -359,7 +359,8 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus",
-			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"]
+			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"],
+		"attackSound": "artillery"
 	},
 	{
 		"name": "Ironclad",
@@ -370,7 +371,8 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
-		"uniques": ["+[33]% Strength vs [City]","Double movement in coast"]
+		"uniques": ["+[33]% Strength vs [City]","Double movement in coast"],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Land Ironclad",
@@ -381,7 +383,8 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 
 	// Steam Era
@@ -407,9 +410,9 @@
 		"cost": 400,
 		"requiredTech": "Propulsion",
 		"hurryCostModifier": 20,
-		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Airship]",
+		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Scout]",
 			"6 tiles in every direction always visible"],
-		"attackSound": "shot"
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Destroyer",
@@ -421,7 +424,8 @@
 		"requiredTech": "Propulsion",
 		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
 			"May withdraw before melee ([50]%)","+[100]% Strength vs [WaterSubmarine]"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Battleship",
@@ -434,7 +438,8 @@
 		"requiredResource": "Coal",
 		"requiredTech": "Eruptives",
 		"uniques": ["Ranged attacks may be performed over obstacles", "+[30]% Strength vs [City]"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Submarine",
@@ -444,9 +449,10 @@
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Expedition",
-		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack water",
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack [Water] tiles", 
 			"Can attack submarines", "Can enter ice tiles"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "torpedo"
 	},
 	{
 		"name": "Landship",
@@ -459,20 +465,22 @@
 		"upgradesTo": "Land Leviathan",
 		"obsoleteTech": "Land Leviathan",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Airship",
-		"unitType": "Melee",
+		"unitType": "Scout",
 		"movement": 4,
 		"strength": 65,
 		"cost": 475,
 		"requiredTech": "Airships",
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
-		"uniques": ["Airship","+[100]% Strength vs [Armor]","All tiles cost 1 movement","Can pass through impassable tiles",
+		"uniques": ["+[100]% Strength vs [Armor]","All tiles cost 1 movement","Can pass through impassable tiles",
 			"No defensive terrain bonus","Unable to capture cities"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 	{
 		"name": "Land Leviathan",
@@ -483,7 +491,8 @@
 		"requiredTech": "Land Leviathan",
 		"requiredResource": "Luboric",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -493,21 +502,22 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Civil Defense",
-		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[150]% Strength vs [Airship]"],
+		"uniques": ["[100]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[150]% Strength vs [Scout]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Sky Fortress",
-		"unitType": "Melee",
+		"unitType": "Scout",
 		"movement": 4,
 		"strength": 80,
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Airship","Can carry [1] [Air] units","All tiles cost 1 movement","Can pass through impassable tiles",
+		"uniques": ["Can carry [1] [Air] units","All tiles cost 1 movement","Can pass through impassable tiles",
 			"+[100]% Strength vs [Armor]","No defensive terrain bonus","Unable to capture cities"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 	//  Great People
 	{

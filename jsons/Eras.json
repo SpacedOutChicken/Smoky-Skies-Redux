@@ -1,0 +1,105 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+    
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 10,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Medieval era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 25,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "settlerBuildings": ["Monument"],
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Renaissance era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Pikeman",
+        "startingGold": 50,
+        "startingCulture": 0,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["Monument","Granary","Lighthouse"],
+        "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Industrial era",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Musketman",
+        "startingGold": 100,
+        "startingCulture": 0,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Workshop","Amphitheater","Barracks","Library","Colosseum"],
+        "iconRGB": [63, 81, 182]
+    },
+    {
+        "name": "Steam era",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Land Ironclad",
+        "startingGold": 400,
+        "startingCulture": 0,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "iconRGB": [33, 150, 243]
+    },
+    {
+        "name": "Airship era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Land Ironclad",
+        "startingGold": 400,
+        "startingCulture": 0,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "iconRGB": [0, 150, 136]
+    },
+    {
+        "name": "Future era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Land Ironclad",
+        "startingGold": 400,
+        "startingCulture": 0,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "iconRGB": [76, 176, 81]
+    }
+]

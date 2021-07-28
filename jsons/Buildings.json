@@ -46,16 +46,6 @@
         "cityStrength": 2,
         "cost": 1,
         "uniques": ["Indicates the capital city",
-            "Gain a free [Aqueduct] [in all cities]",
-            "Gain a free [Barracks] [in all cities]","Gain a free [Castle] [in all cities]",
-            "Gain a free [Colosseum] [in all cities]","Gain a free [Granary] [in all cities]",
-            "Gain a free [Library] [in all cities]","Gain a free [Lighthouse] [in all coastal cities]",
-            "Gain a free [Monument] [in all cities]","Gain a free [Theatre] [in all cities]",
-            "Gain a free [Walls] [in all cities]",
-            "Gain a free [Temple] [in all cities]","Gain a free [Bank] [in all cities]",
-            "Gain a free [Market] [in all cities]","Gain a free [Opera House] [in all cities]",
-            "Gain a free [Public School] [in all cities]","Gain a free [University] [in all cities]",
-            "Gain a free [Workshop] [in all cities]",
             "Quantity of strategic resources produced by the empire +[100]%"],
         "replacementTextForUniques": "Indicates the capital city"
     },
@@ -71,9 +61,9 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles in this city",
-			"[+1 Food] from [Bananas] tiles in this city",
-			"[+1 Food] from [Wheat] tiles in this city"],
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
     {
@@ -84,8 +74,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles in this city",
-			"[+1 Production] from [Marble] tiles in this city"],
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
     {
@@ -120,10 +110,10 @@
     },
     {
         "name": "Barracks",
-        "xpForNewUnits": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "Bronze Working"
+        "requiredTech": "Bronze Working",
+        "uniques": ["New [Military] units start with [15] Experience [in this city]"]
     },
     
     // Classical Era
@@ -132,8 +122,8 @@
         "name": "Lighthouse",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles in this city",
-			"[+1 Food] from [Coast] tiles in this city", "[+1 Food] from [Fish] tiles in this city" ],
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
 		"requiredTech": "Optics"
     },
     {
@@ -142,9 +132,9 @@
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": ["+[15]% Production when constructing [Mounted] units [in this city]",
-            "[+1 Production] from [Cattle] tiles in this city",
-			"[+1 Production] from [Horses] tiles in this city",
-			"[+1 Production] from [Sheep] tiles in this city"],
+            "[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
     {
@@ -163,7 +153,7 @@
         "requiredTech": "Construction"
     },
     {
-        "name": "Temple",
+        "name": "Amphitheater",
         "culture": 3,
         "specialistSlots": {"Artist": 1},
         "requiredBuilding": "Monument",
@@ -184,14 +174,14 @@
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles in this city", "[+2 Gold] from [Silver] tiles in this city"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
     {
         "name": "Aqueduct",
         "maintenance": 1,
         "hurryCostModifier": 0,
-        "uniques": ["[40]% of food is carried over after population increases"],
+        "uniques": ["[40]% of food is carried over [in this city] after population increases"],
         "requiredTech": "Engineering"
     },
     
@@ -200,7 +190,7 @@
     {
         "name": "Garden",
         "cost": 120,
-        "uniques": ["+[25]% great person generation in this city","Must be next to [Fresh water]"],
+        "uniques": ["+[25]% great person generation [in this city]","Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -209,7 +199,7 @@
 		"name": "Monastery",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Wine","Incense"],
-		"uniques": ["[+2 Culture] from [Wine] tiles in this city", "[+2 Culture] from [Incense] tiles in this city"],
+		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]", "[+2 Culture] from [Incense] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology"
 	},
@@ -229,13 +219,13 @@
         "requiredNearbyImprovedResources": ["Iron"],
         "requiredTech": "Metal Casting",
         "uniques": ["+[15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles in this city"]
+			"[+1 Production] from [Iron] tiles [in this city]"]
     },
     {
         "name": "Harbor",
         "maintenance": 2,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production] from [Water resource] tiles in this city",
+        "uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
     },
@@ -246,7 +236,7 @@
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
         "requiredBuilding": "Library",
-        "uniques": ["[+2 Science] from [Jungle] tiles in this city"],
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
         "requiredTech": "Education"
     },
     {
@@ -274,7 +264,7 @@
         "culture": 4,
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 10,
-        "requiredBuilding": "Temple",
+        "requiredBuilding": "Amphitheater",
         "maintenance": 1,
         "requiredTech": "Acoustics"
     },
@@ -318,7 +308,7 @@
         "hurryCostModifier": 25,
         "maintenance": 3,
         "requiredBuilding": "Harbor",
-        "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
+        "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "+[15]% Production when constructing [Water] units [in this city]"],
         "requiredTech": "Navigation"
     },
@@ -328,7 +318,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["Must not be on [Hill]", "+[10]% production when building [Buildings] [in this city]"],
+        "uniques": ["Must not be on [Hill]", "+[10]% Production when constructing [Buildings] [in this city]"],
         "requiredTech": "Economics"
     },
     
@@ -364,15 +354,14 @@
         "requiredTech": "Rifling"
     },
     {
-        "name": "Brandenburg Gate",
-        "culture": 3,
-        "xpForNewUnits": 15,
-        "greatPersonPoints": {"science": 2},
-        "isWonder": true,
-        "uniques": ["Free [Great General] appears"],
-        "requiredTech": "Military Science",
-        "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.'  - Horace"
-    },
+		"name": "Brandenburg Gate",
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.'  - Horace"
+	},
     {
         "name": "Hospital",
         "food": 5,
@@ -385,7 +374,7 @@
         "name": "Big Ben",
         "culture": 1,
         "gold": 4,
-        "greatPersonPoints": {"gold": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": ["Cost of purchasing items in cities reduced by [15]%"],
         "requiredTech": "Industrialization",
@@ -416,7 +405,7 @@
         "name": "Eiffel Tower",
         "culture": 1,
         "happiness": 5,
-        "greatPersonPoints": {"gold": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": ["Provides 1 happiness per 2 additional social policies adopted"],
         "requiredTech": "Analog Computation",
@@ -453,8 +442,8 @@
         "name": "Pentagon",
         "isWonder": true,
         "culture": 3,
-        "greatPersonPoints": {"production": 2},
-        "uniques": ["Gold cost of upgrading military units reduced by 33%"],
+        "greatPersonPoints": {"Great Engineer": 2},
+        "uniques": ["Gold cost of upgrading [Military] units reduced by [33]%"],
         "requiredTech": "Vertical Integration",
         "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.'  - Dwight D. Eisenhower"
     },
@@ -509,7 +498,7 @@
         "happiness": 2,
         "culture": 4,
         "gold": 6,
-        "greatPersonPoints": {"gold": 1},
+        "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
             "Must have an owned [Mountain] within [2] tiles"],
@@ -532,14 +521,14 @@
         "cost": 300,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["Provides [2] [Luboric]","[+1 Production] from [Luboric] tiles in this city"],
+        "uniques": ["Provides [2] [Luboric]","[+1 Production] from [Luboric] tiles [in this city]"],
         "requiredTech": "Infernal Combustion"
     },
     {
         "name": "Statue of Liberty",
         "culture": 1,
         "isWonder": true,
-        "greatPersonPoints": {"production": 2},
+        "greatPersonPoints": {"Great Engineer": 2},
         "uniques": ["[+1 Production] from every specialist"],
         "requiredTech": "Infernal Combustion",
         "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
@@ -556,7 +545,7 @@
         "name": "Cristo Redentor",
         "culture": 5,
         "isWonder": true,
-        "greatPersonPoints": {"culture": 2},            
+        "greatPersonPoints": {"Great Artist": 2},            
         "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
         "requiredTech": "Gospel of Wealth",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
@@ -584,7 +573,7 @@
     {
         "name": "Sydney Opera House",
         "isWonder": true,
-        "greatPersonPoints": {"culture": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "percentStatBonus": {"culture": 50},
         "uniques": ["Free Social Policy","Must be next to [Coast]"],
         "requiredTech": "Galvanomagnetism",
@@ -606,7 +595,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["Provides [2] [Aetherium]","[+1 Gold] from [Aetherium] tiles in this city"],
+        "uniques": ["Provides [2] [Aetherium]","[+1 Gold] from [Aetherium] tiles [in this city]"],
         "requiredTech": "Automata"
     },    
     {
@@ -614,7 +603,7 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Air] units start with [15] Experience", "New [Airship] units start with [15] Experience"],
+        "uniques": ["New [Air] units start with [15] Experience [in this city]", "New [Scout] units start with [15] Experience [in this city]"],
         "requiredTech": "Uranography"
     },
     {
@@ -624,8 +613,8 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Air] units start with [15] Experience", "New [Airship] units start with [15] Experience",
-            "+[15]% Production when constructing [Airship] units [in this city]", "+[15]% Production when constructing [Sky Fortress] units [in this city]"],
+        "uniques": ["New [Air] units start with [15] Experience [in this city]", "New [Scout] units start with [15] Experience [in this city]",
+            "+[15]% Production when constructing [Scout] units [in this city]"],
         "requiredTech": "Uranography"
     },    
     {
@@ -690,9 +679,9 @@
         "happiness": 10,
 		"culture": 1,
 		"cost": 1250,
-		"greatPersonPoints": {"gold": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"providesFreeBuilding": "Broadcast Tower",
-		"uniques": ["[+1] population [in all cities]","[+1 Happiness] [in all cities]","Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["[+1] population [in all cities]","[+1 Happiness] [in all cities]","Provides a free [Broadcast Tower] [in all cities]"],
         "requiredTech": "Technocracy",
         "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
 	},

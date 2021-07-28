@@ -1,7 +1,8 @@
 [
+
 	{
 		"name": "Heal Instantly",
-		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
 	},
 	
@@ -51,57 +52,57 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"effect": "+1 Range",
+		"effect": "[+1] Range",
 		"unitTypes": ["Ranged","Siege","WaterRanged","WaterSubmarine"]
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III","Barrage III"],
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"effect": "Ranged attacks may be performed over obstacles",
-		"unitTypes": ["Ranged","Siege"]
+		"unitTypes": ["Ranged","Siege","WaterRanged"]
 	},
 	
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"effect": "+[15]% Strength in [Open terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 
 	{
 		"name": "Drill I",
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"effect": "+[15]% Strength in [Rough terrain]",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"effect": "+[33]% Strength vs [wounded units]",
-		"unitTypes": ["Mounted","Armor"]
+		"unitTypes": ["Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
@@ -111,7 +112,7 @@
 	},
 	{
 		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"],
+		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"effect": "+[33]% Strength vs [Mounted]",
 		"unitTypes": ["Melee","Mounted"]
 	},
@@ -125,13 +126,15 @@
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
-		"effect": "1 additional attack per turn",
-		"unitTypes": ["Melee","Mounted","Armor"]
+		"effect": "[1] additional attacks per turn",
+		"unitTypes": ["Melee","Mounted","Armor","Scout"]
 	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
-		"effect": "Double movement rate through Forest and Jungle",
+		"effect": "Double movement rate through Forest and Jungle", 
+		// This could be generalized: ["-[50]% movement costs through [Forest] tiles", "-[50]% movement costs through [Jungle] tiles"],
+		// but with how getMovementCostBetweenAdjacentTiles() is optimized, that's difficult to implement. 
 		"unitTypes": ["Melee"]
 	},
 	{
@@ -142,72 +145,73 @@
 	},
 	{
 		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
-		"unitTypes": ["Melee","Mounted","Scout"]
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing"],
+		"unitTypes": ["Melee","Mounted"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
-		"unitTypes": ["Melee","Mounted","Scout"]
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing",
+					"[+5] HP when healing in [Foreign Land] tiles"],
+		"unitTypes": ["Melee","Mounted"]
 	},
-	
-	// Scout
-	{
-		"name": "Scouting I",
-		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"effect": "+1 Movement",
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
-	},
-	
+		
 	
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"effect": "+[33]% Strength vs [water units]",
+		"effect": "+[15]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"effect": "+[33]% Strength vs [water units]",
+		"effect": "+[15]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"effect": "+[33]% Strength vs [water units]",
+		"effect": "+[15]% Strength vs [water units]",
 		"unitTypes": ["WaterMelee"]
 	},
 	
 	{
 		"name": "Coastal Raider I",
-		"effect": "+[15]% Strength vs [City]",
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"effect": "+[15]% Strength vs [City]",
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
-		"effect": "+[15]% Strength vs [City]",
+		"uniques": ["+[20]% Strength vs [City]", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["WaterMelee"]
+	},
+	
+	// Water Ranged
+	{
+		"name": "Targeting I",
+		"effect": "+[15]% Strength vs [water units]",
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Targeting II",
+		"prerequisites": ["Targeting I"],
+		"effect": "+[15]% Strength vs [water units]",
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Targeting III",
+		"prerequisites": ["Targeting II"],
+		"effect": "+[15]% Strength vs [water units]",
+		"unitTypes": ["WaterRanged"]
 	},
 	
 	// Submarine
@@ -249,20 +253,28 @@
 	},
 	{
 		"name": "Flight Deck I",
-		"effect": "Can carry 1 extra air unit",
+		"effect": "Can carry [1] extra [Air] units",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I"],
-		"effect": "Can carry 1 extra air unit",
+		"effect": "Can carry [1] extra [Air] units",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II"],
-		"effect": "Can carry 1 extra air unit",
+		"effect": "Can carry [1] extra [Air] units",
 		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	
+	// Mixed Water
+	{
+		"name" : "Supply",
+		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing in [Foreign Land] tiles"],
+		"unitTypes": ["WaterMelee", "WaterRanged"]
 	},
 
 	// Bomber
@@ -286,26 +298,26 @@
 	{
 		"name": "Evasion",
 		"prerequisites": ["Siege II", "Bombardment II"],
-		"effect": "Reduces damage taken from interception by 50%",
+		"effect": "Damage taken from interception reduced by [50]%",
 		"unitTypes": ["Bomber"]
 	},
 	
 	// Fighter
 	{
 		"name": "Interception I",
-		"effect": "Bonus when intercepting [33]%",
+		"effect": "[+33]% Damage when intercepting",
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
-		"effect": "Bonus when intercepting [33]%",
+		"effect": "[+33]% Damage when intercepting",
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
-		"effect": "Bonus when intercepting [34]%",
+		"effect": "[+34]% Damage when intercepting",
 		"unitTypes": ["Fighter"]
 	},
 	/*
@@ -327,37 +339,50 @@
 		"unitTypes": ["Fighter"]
 	}
 	*/
+
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
+		"effect": "+[33]% Strength vs [water units]",
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"effect": "+[33]% Strength vs [water units]",
+		"unitTypes": ["Fighter","Bomber"]
+	},
 	
 	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
-		"effect": "1 extra Interception may be made per turn",
+		"effect": "[1] extra interceptions may be made per turn",
 		"unitTypes": ["Fighter"]
 	},
 	
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
-		"effect": "+2 Range",
+		"effect": "[+2] Range",
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Siege II", "Bombardment II"],
+		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Siege II", "Bombardment II","Shock II","Drill II"],
 		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Fighter","Bomber"]
+		"unitTypes": ["Fighter","Bomber","Scout"]
 	},
 	
 	// Mixed
 	{
 		"name": "Cover I",
-		"effect": "+25% Defence against ranged attacks",
+		"effect": "[+33]% Strength when defending vs [Ranged] units",
 		"unitTypes": ["Melee","Ranged","Siege"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
-		"effect": "+25% Defence against ranged attacks",
+		"effect": "[+33]% Strength when defending vs [Ranged] units",
 		"unitTypes": ["Melee","Ranged","Siege"]
 	},
 	
@@ -371,32 +396,32 @@
 		"name": "Mobility",
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
-		"effect": "+1 Movement",
+		"effect": "[+1] Movement",
 		"unitTypes": ["Mounted","WaterMelee","WaterRanged","Armor","WaterSubmarine"]
 	},
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"effect": "+1 Visibility Range",
+		"effect": "[+1] Visibility Range",
 		"unitTypes": ["Melee","Mounted","WaterRanged","Armor","WaterMelee"]
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III"],
-		"effect": "1 additional attack per turn",
+		"effect": "[1] additional attacks per turn",
 		"unitTypes": ["Ranged","Siege","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber"]
 	},
 	
 	{
 		"name": "Ambush I",
-		"effect": "+[25]% Strength vs [Armor]",
+		"effect": "+[33]% Strength vs [Armor]",
 		"unitTypes": ["Melee","Fighter","Bomber"]
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"effect": "+[25]% Strength vs [Armor]",
+		"effect": "+[33]% Strength vs [Armor]",
 		"unitTypes": ["Melee","Fighter","Bomber"]
 	},
 	
@@ -418,36 +443,5 @@
 		"prerequisites": ["Bombardment II"],
 		"effect": "+[34]% Strength vs [land units]",
 		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	
-	// Targeting I has different requirements for air and waterranged units, this was the cleanest way to do so
-	{
-		"name": "Targeting I",
-		"effect": "+[15]% Strength vs [water units]",
-		"unitTypes": ["WaterRanged"]
-	},
-	{
-		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
-		"effect": "+[15]% Strength vs [water units]",
-		"unitTypes": ["Fighter","Bomber"]
-	},
-	{
-		"name": "Targeting II",
-		"prerequisites": ["Targeting I","Targeting I (air)"],
-		"effect": "+[15]% Strength vs [water units]",
-		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	{
-		"name": "Targeting III",
-		"prerequisites": ["Targeting II"],
-		"effect": "+[15]% Strength vs [water units]",
-		"unitTypes": ["WaterRanged"]
-	},
-	
-	// Uniques
-	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"effect": "All healing effects doubled"
 	}
 ]
