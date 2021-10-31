@@ -31,14 +31,15 @@
         "isNationalWonder": true,
         "requiredBuilding": "Captain of Industry",
         "requiredTech": "Technocracy",
-        "uniques": ["Honourable Title", "Hidden until [5] social policy branches have been completed","Triggers a global alert upon completion"]
+        "uniques": ["Honourable Title", "Hidden until [5] social policy branches have been completed","Triggers a global alert upon completion",
+            "May buy [Master of Wealth] buildings for [50000] [Gold] [in capital]"]
     },
     {
         "name": "Master of Wealth",
-        "cost": 2000,
+        "cost": 50000,
         "requiredTech": "Perpetual Motion",
         "requiredBuilding": "Lord of Refinement",
-        "uniques": ["Honourable Title", "Unbuildable","Can be purchased with [Gold] [in capital]","Triggers victory"]
+        "uniques": ["Honourable Title", "Unbuildable","Triggers victory"]
     },
 
     // Ancient Era
