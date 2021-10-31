@@ -6,26 +6,26 @@
 		"policies": [
 			{
 				"name": "United Front",
-				"uniques": ["+[10]% Production when constructing [Wonders]", "[+2 Food] [in all cities]"],
+				"uniques": ["[+10]% Production when constructing [All] wonders [in all cities]", "[+2 Food] [in all cities]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Secularism",
-				"uniques": ["[+2 Science] from every specialist"],
+				"uniques": ["[+2 Science] from every specialist [in all cities]"],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Aristocracy",
-				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population [in all cities]"],
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", "[+1 Happiness] per [10] population [in all cities]"],
 				"requires": ["United Front"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Democracy",
-				"uniques": ["Specialists only produce [50]% of normal unhappiness"],
+				"uniques": ["[-50]% unhappiness from specialists [in all cities]"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 4
@@ -49,19 +49,19 @@
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["50% of excess happiness added to culture towards policies"],
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Legalism",
-				"uniques":["Immediately creates the cheapest available cultural building in each of your first [4] cities for free"],
+				"uniques":["Provides the cheapest [Culture] building in your first [4] cities for free"],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Reformation",
-				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]", "Empire enters golden age"],
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]", "Empire enters golden age"],
 				"requires": ["Mandate Of Heaven"],
 				"row": 2,
 				"column": 2
@@ -92,13 +92,13 @@
 		"policies": [
 			{
 				"name": "Socialism",
-				"uniques": ["-[15]% building maintenance costs [in all cities]"],
+				"uniques": ["-[15]% maintenance cost for buildings [in all cities]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Republic",
-				"uniques": ["[+1 Production] [in all cities]","+[5]% Production when constructing [Buildings]"],
+				"uniques": ["[+1 Production] [in all cities]", "[+5]% Production when constructing [All] buildings [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
@@ -110,14 +110,14 @@
 			},
 			{
 				"name": "Planned Economy",
-				"uniques": ["+[25]% [Science] from every [Factory]","+[50]% Production when constructing [Factory]"],
+				"uniques": ["+[25]% [Science] from every [Factory]","[+50]% Production when constructing [Factory] buildings [in all cities]"],
 				"requires": ["Republic"],
 				"row": 2,
 				"column": 4
 			},
 			{
 				"name": "Fascism",
-				"uniques": ["Quantity of strategic resources produced by the empire +[100]%","+[2] Movement for all [Great General] units"],
+				"uniques": ["Quantity of strategic resources produced by the empire +[100]%","[+2] Movement <for [Great General] units>"],
 				"requires": ["Planned Economy"],
 				"row": 3,
 				"column": 4
@@ -140,7 +140,7 @@
 			},
 			{
 				"name": "Meritocracy",
-				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "Unhappiness from population decreased by [5]% [in all non-occupied cities]"],
+				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "[-5]% unhappiness from population [in all non-occupied cities]"],
 				"row": 1,
 				"column": 4
 			},
@@ -153,7 +153,7 @@
 			},
 			{
 				"name": "Mercantilism",
-				"uniques": ["Cost of purchasing items in cities reduced by [25]%", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
+				"uniques": ["[Gold] cost of purchasing items in cities [-25]%", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
 					"[+1 Science] from every [Bank]", "[+1 Science] from every [Stock Exchange]"],
 				"row": 2,
 				"column": 4
@@ -177,7 +177,7 @@
 		"policies": [
 			{
 				"name": "Discipline",
-				"uniques":["+[15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
+				"uniques":["[+15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
 				"row": 1,
 				"column": 2
 			},
@@ -189,7 +189,7 @@
 			},
 			{
 				"name": "Nationalism",
-				"uniques": ["+[15]% Strength for units fighting in [Friendly Land]"],		
+				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],		
 				"row": 1,
 				"column": 4
 			},
@@ -203,7 +203,7 @@
 			},
 			{
 				"name": "Militarism",
-				"uniques": ["Gold cost of purchasing [All] units -[33]%"],
+				"uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
 				"requires": ["Military Tradition","Nationalism"],
 				"row": 2,
 				"column": 4

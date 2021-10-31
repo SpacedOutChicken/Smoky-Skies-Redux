@@ -66,7 +66,9 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Iron",
@@ -75,7 +77,9 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Coal",
@@ -84,7 +88,9 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 2}
+		"improvementStats": {"production": 2},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Oil",
@@ -93,7 +99,9 @@
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvement": "Oil well",
-		"improvementStats": {"production": 3}
+		"improvementStats": {"production": 3},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Aetherium",
@@ -102,7 +110,9 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Luboric",
@@ -111,7 +121,9 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	
 	// Luxury resources
@@ -219,7 +231,7 @@
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1,"production": 1},
-		"unique": "+15% production towards Wonder construction"
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"]
 	},
 	{
 		"name": "Whales",
@@ -249,5 +261,48 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"unique": "Can only be created by Mercantile City-States"
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Copper",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
+	},
+	{
+		"name": "Crab",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1,"production":1}
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
 	}
 ]
