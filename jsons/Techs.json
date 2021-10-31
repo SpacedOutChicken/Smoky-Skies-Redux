@@ -628,7 +628,7 @@
                   {
                         "name": "Subterranean Exploration",
                         "row": 8,
-                        "prerequisites": ["Land Leviathan"],
+                        "prerequisites": ["Land Leviathan", "Civil Defense"],
                         "quote": "'One just principle from the depths of a cave is more powerful than an army.' - Jose Marti"
                   }
             ]     
