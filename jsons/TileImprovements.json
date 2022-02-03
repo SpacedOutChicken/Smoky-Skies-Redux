@@ -5,8 +5,8 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] on [fresh water] tiles once [Civil Service] is discovered",
-			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+			"[+1 Food] from [fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"shortcutKey": "F"
 	},
 	{
@@ -15,7 +15,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] once [Scientific Theory] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>"],
 		"shortcutKey": "L"
 	},
 	{
@@ -24,7 +24,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -33,7 +33,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] once [Economics] is discovered"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "T"
 	},
 	
@@ -42,7 +42,7 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","[+1 Gold] once [Economics] is discovered"],
+		"uniques": ["Does not need removal of [Forest]","[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "C"
 	},
 	{
@@ -56,7 +56,7 @@
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -64,14 +64,14 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -79,7 +79,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] once [Compass] is discovered"]
+		"uniques": ["[+1 Gold] <after discovering [Compass]>"]
 	},
 
 	// Military improvement
@@ -162,7 +162,7 @@
 	{
 		"name": "Academy",
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] once [Scientific Theory] is discovered"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>"]
 	},
 	{
 		"name": "Landmark",
@@ -172,16 +172,16 @@
 	{
 		"name": "Manufactory",
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] once [Chemistry] is discovered"]
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>"]
 	},
 	{
 		"name": "Customs house",
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] once [Economics] is discovered"]
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>"]
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement", "Can be built just outside your borders"]
+		"uniques": ["Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Great Improvement", "Can be built just outside your borders"]
 	},
 	
 	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },

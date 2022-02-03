@@ -23,7 +23,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"May create improvements on water resources",
 			"Uncapturable"],
 		"hurryCostModifier": 20
