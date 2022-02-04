@@ -48,7 +48,7 @@
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
 		"uniqueName": "New World Order",
-		"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -118,7 +118,7 @@
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"uniqueName": "Inventor's Guild",
-		"uniques": ["+25% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö","Vantaa","Visby","Strängnäs",
 			"Tampere","Skara","Lödöse","Oulu","Växjö","Jyväskylä","Gothenburg","Örebro","Lahti","Helsingborg","Jönköping","Kuopio",
 			"Norrköping","Sundsvall","Kouvola","Karlstad","Umeå","Pori","Ystad","Paviken","Vaasa"]
