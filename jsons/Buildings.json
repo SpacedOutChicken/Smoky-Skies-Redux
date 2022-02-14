@@ -4,42 +4,56 @@
     {
         "name": "Defender of Progress",
         "cost": 1500,
-        "isNationalWonder": true,
-        "requiredBuilding": "Palace",
         "requiredTech": "Landships",
-        "uniques": ["Honourable Title", "Triggers a global alert upon completion", "Requires a [Arsenal] in all cities"]
+        "uniques": ["Honourable Title",
+            "Triggers a global alert upon completion",
+            "Requires a [Arsenal] in all cities",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable"]
     },
     {
         "name": "Grand Philanthropist",
         "cost": 1500,
-        "isNationalWonder": true,
-        "requiredBuilding": "Defender of Progress",
         "requiredTech": "Noblesse Oblige",
-        "uniques": ["Honourable Title", "Triggers a global alert upon completion"]
+        "uniques": ["Honourable Title",
+            "Requires [Defender of Progress]",
+            "Triggers a global alert upon completion",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable"]
     },
     {
         "name": "Captain of Industry",
         "cost": 1500,
-        "isNationalWonder": true,
-        "requiredBuilding": "Grand Philanthropist",
         "requiredTech": "Automata",
-        "uniques": ["Honourable Title", "Triggers a global alert upon completion"]
+        "uniques": ["Honourable Title",
+            "Requires [Grand Philanthropist]",
+            "Triggers a global alert upon completion",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable"]
     },    
     {
         "name": "Lord of Refinement",
         "cost": 2000,
-        "isNationalWonder": true,
-        "requiredBuilding": "Captain of Industry",
         "requiredTech": "Technocracy",
-        "uniques": ["Honourable Title", "Hidden until [5] social policy branches have been completed","Triggers a global alert upon completion",
-            "May buy [Master of Wealth] buildings for [50000] [Gold] [in capital]"]
+        "uniques": ["Honourable Title",
+            "Requires [Captain of Industry]",
+            "Hidden until [5] social policy branches have been completed",
+            "Triggers a global alert upon completion",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable",
+            "May buy [Master of Wealth] buildings for [50000] [Gold] [in all cities]"]
     },
     {
         "name": "Master of Wealth",
         "cost": 50000,
         "requiredTech": "Perpetual Motion",
-        "requiredBuilding": "Lord of Refinement",
-        "uniques": ["Honourable Title", "Unbuildable","Triggers victory"]
+        "uniques": ["Honourable Title",
+            "Unbuildable",
+            "Triggers victory"]
     },
 
     // Ancient Era
@@ -131,8 +145,10 @@
         "cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"uniques": ["Must be next to [Coast]",
+            "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+            "[+1 Food] from [Fish] tiles [in this city]" ],
 		"requiredTech": "Optics"
     },
     {
@@ -184,7 +200,8 @@
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]",
+            "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
     {
@@ -200,7 +217,8 @@
     {
         "name": "Garden",
         "cost": 120,
-        "uniques": ["[+25]% great person generation [in this city]","Must be next to [Fresh water]"],
+        "uniques": ["[+25]% great person generation [in this city]",
+            "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -209,7 +227,9 @@
 		"name": "Monastery",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Wine","Incense"],
-		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]", "[+2 Culture] from [Incense] tiles [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]",
+            "[+2 Culture] from [Incense] tiles [in this city]",
+            "Destroyed when the city is captured"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology"
 	},
@@ -236,7 +256,8 @@
         "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-            "Connects trade routes over water","Must be next to [Coast]"],
+            "Connects trade routes over water",
+            "Must be next to [Coast]"],
         "requiredTech": "Compass"
     },
     {
@@ -322,7 +343,8 @@
         "maintenance": 3,
         "requiredBuilding": "Harbor",
         "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+			"Must be next to [Coast]",
+            "[+15]% Production when constructing [Water] units [in this city]"],
         "requiredTech": "Navigation"
     },
     {
@@ -331,7 +353,8 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+        "uniques": ["Must not be on [Hill]",
+            "[+10]% Production when constructing [All] buildings [in this city]"],
         "requiredTech": "Economics"
     },
     

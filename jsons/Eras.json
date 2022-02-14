@@ -14,18 +14,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "startPercent": 50,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -42,18 +42,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "startPercent": 50,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -70,18 +70,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "startPercent": 50,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -98,18 +98,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "startPercent": 50,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -126,18 +126,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "startPercent": 50,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -154,18 +154,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 600,
+        "startPercent": 65,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -182,18 +182,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [0, 150, 136],
+        "baseUnitBuyCost": 800,
+        "startPercent": 65,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
@@ -210,18 +210,18 @@
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [76, 176, 81],
+        "baseUnitBuyCost": 1000,
+        "startPercent": 80,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
             "Mercantile": ["Provides [+3] Happiness"],
-            "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
         }
