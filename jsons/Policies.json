@@ -25,7 +25,7 @@
 			},
 			{
 				"name": "Democracy",
-				"uniques": ["[-50]% unhappiness from specialists [in all cities]"],
+				"uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 4
@@ -140,7 +140,7 @@
 			},
 			{
 				"name": "Meritocracy",
-				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "[-5]% unhappiness from population [in all non-occupied cities]"],
+				"uniques": ["[+1 Happiness] [in all cities connected to capital]", "[-5]% Unhappiness from [Population] [in all non-occupied cities]"],
 				"row": 1,
 				"column": 4
 			},

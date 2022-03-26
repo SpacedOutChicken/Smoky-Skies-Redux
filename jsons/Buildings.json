@@ -218,7 +218,7 @@
     {
         "name": "Garden",
         "cost": 120,
-        "uniques": ["[+25]% great person generation [in this city]",
+        "uniques": ["[25]% Great Person generation [in this city]",
             "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
