@@ -467,8 +467,9 @@
 		"requiredTech": "Airships",
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
-		"uniques": ["[+100]% Strength <vs [Armored] units>","All tiles cost 1 movement",
-			"No defensive terrain bonus","Unable to capture cities", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>",
+			"Unable to capture cities",
+			 "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -503,8 +504,9 @@
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Can carry [1] [Air] units","All tiles cost 1 movement",
-			"[+100]% Strength <vs [Armored] units>","No defensive terrain bonus","Unable to capture cities",
+		"uniques": ["Can carry [1] [Air] units",
+			"[+100]% Strength <vs [Armored] units>",
+			"Unable to capture cities",
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
