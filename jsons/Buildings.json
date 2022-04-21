@@ -104,7 +104,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] Per [2] population [in this city]"],
+        "uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
