@@ -158,7 +158,7 @@
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
-		"improvement": "Oil well",
+		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Deposits in [Coast] tiles always provide [4] resources",
