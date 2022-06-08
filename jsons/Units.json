@@ -557,7 +557,7 @@
 		"cost": 750,
 		"requiredTech": "Infernal Combustion",
 		"requiredResource": "Oil",
-		"uniques": ["Moonshot part", "Cannot be purchased", "Consumes [3] [Oil]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [3] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [3] [Oil]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [3] per Civilization"]
 		// costs 1500 in BNW
 	},
 	{
