@@ -565,7 +565,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Exploration",
+		"requiredTech": "Expedition",
 		"requiredResource": "Aetherium",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Aetherium]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
