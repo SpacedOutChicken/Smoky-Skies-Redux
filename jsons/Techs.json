@@ -211,7 +211,7 @@
                         "name": "Guilds",
                         "row": 7,
                         "prerequisites": ["Currency"],
-                        "uniques": ["Starting tech","Enables conversion of city production to gold"],
+                        "uniques": ["Starting tech","Enables conversion of city production to [Gold]"],
                         "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
                   },
                   {
@@ -244,7 +244,7 @@
                         "name": "Education",
                         "row": 3,
                         "prerequisites": ["Theology","Civil Service"],
-                        "uniques": ["Starting tech","Enables conversion of city production to science","Enables Research agreements"],
+                        "uniques": ["Starting tech","Enables conversion of city production to [Science]","Enables Research agreements"],
                         "quote": "'Education is the best provision for old age.' - Aristotle"
                   },
                   {
