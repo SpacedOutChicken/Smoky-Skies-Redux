@@ -540,8 +540,54 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+	
+	/* Spaceship Parts */
+
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	
+	{
+		"name": "Moonshot Propellant",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Infernal Combustion",
+		"requiredResource": "Oil",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [3] [Oil]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [3] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Moonshot Capsule",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Expedition",
+		"requiredResource": "Aetherium",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Aetherium]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Moonshot Barrel",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Galvanomagnetism",
+		"requiredResource": "Luboric",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Luboric]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Moonshot Targeting Component",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Uranography",
+		"requiredResource": "Aetherium",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Aetherium]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
 	}
 ]
