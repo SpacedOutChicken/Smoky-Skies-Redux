@@ -8,7 +8,6 @@
 		"name": "Eruch",
 		"leaderName": "Cyrus Rotheram",
 		"adjective": ["Eruch"],
-		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The Eruch Empire began as a series of impassioned debates between long established noble families about the growing chaos in the world and what could be done to stop it. The debates soon reached a critical mass for action, fueled by the nobles’ fear of an uncertain future as well as their desire to protect their wealth. A secret council was formed, drawing on the leadership and military prowess that had been their inheritance from previous generations. It mobilized a small but well-equipped army. With it, the nobles carved out a large territory that would become the core of Eruch, and seceded from the old kingdoms.",
 		"startIntroPart2": "Outwardly, leaders of Eruch profess the glories of civilized life, and seek to spread their ways to the ends of the earth. They act as gentlemen in diplomatic affairs, but always have a rigid structure of military might ready to respond at their first call.",
@@ -25,16 +24,16 @@
 		"uniques": ["[+2] Movement <for [Airship] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
-			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
 			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
-			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
-			"Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
+			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Wurzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+		"spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
 	},
 	{
 		"name": "Dalmace",
 		"leaderName": "Clinton Alderdice",
 		"adjective": ["Dalmace"],
-		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "Dalmace arose out of necessity. The turmoil of old kingdoms collapsing and new empires emerging left many people of the lower and middle classes marginalized. Some stayed in their homelands but many fled as refugees, not knowing where to go. They gathered in the country estates of nobles that did not have the heart or the force to deny their presence. Soon leaders arose from the ranks of the refugees, calling for organization, protection, food, and resources. Some nobles saw opportunity and joined their ranks, sharing their wealth. Others refused, and their estates were ransacked. These were the first Dalmace compounds, which would grow into cities that rivaled those of any other empire.",
 		"startIntroPart2": "Dalmace is founded on ideals, and its strength comes from the tight camaraderie and evolving culture of its humble citizens.",
@@ -52,13 +51,13 @@
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+		"spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
 	},
 	{
 		"name": "Orlin",
 		"leaderName": "Ignace Curnow",
 		"adjective": ["Orlin"],
-		"preferredVictoryType": "Scientific",
 	
 		"startIntroPart1": "The steady advance of science brought great changes to the processes by which products were manufactured, transported, and sold. Many otherwise shrewd businessmen could not contend with the changes and faded away, leaving room for the more adaptable. Orlin had no political existence when it began, and no desire for empire. It was a collection of ambitious industrialist that banded together for mutual benefit. They parceled out markets like territories, and together came to dominate industries throughout the old kingdoms.",
 		"startIntroPart2": "When the kingdoms began to fade, the Orlin tycoons clashed in a contest for power. They encroached on each other’s ventures, and delved into blackmail and assassination. A tight oligarchy emerged which controlled nearly all the means of production. With their industrial capacity, and the riches it brought, they formally entered the world stage as an empire.",
@@ -76,13 +75,14 @@
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
-			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+		"spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
 	},
 {
 		"name": "Pulias",
 		"leaderName": "Octavius Cutler",
 		"adjective": ["Pulian"],
-		"preferredVictoryType": "Cultural",
+		
 		"startIntroPart1": "The exact origins of Pulias are shrouded in mystery even to this day. It seems to have emerged out of nowhere, yet its power and wealth seem too large to have been easily missed. Most sources posit a single leader who saw the opportunities of new science, commerce, and most of all politics, and manipulated affairs from the shadows. This leader sold sensitive information to rivals at a premium while using it to further the objectives of Pulias.",
 		"startIntroPart2": "In the early competition between empires, many opportunities were left unexplored as rivals focused on short-term gains. Pulias was the first to send expeditions to foreign lands, and established trade that brought riches to its citizens. Its spies were placed in key positions across the world, gathering intelligence and ready to act.",
 		"declaringWar": "By the grace of God, your days are numbered.",
@@ -99,13 +99,14 @@
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
-			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+		"spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
 	},
 	{
 		"name": "Vedria",
 		"leaderName": "Luther Griggs",
 		"adjective": ["Vedrian"],
-		"preferredVictoryType": "Cultural",
+		
 		"startIntroPart1": "When the old kingdoms weakened, the growing class of academics and inventors saw the opportunity to create a new kind of nation, one that was founded on principles of reason and embraced scientific advancement. They found allies in many of the old monarchists, who were looking for a way to preserve their influence, and together they became Vedria. Their ranks mixed quickly, and before long every prominent leader was expected to be familiar with scientific processes, if not involved in research personally.",
 		"startIntroPart2": "Vedria is marked by optimism for the future to come, and its citizens believe that the noble pursuit of science is the clear path towards it. Scientists are consulted on matters of state, and given generous for their research.",
 		"declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry!",
@@ -121,7 +122,8 @@
 		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö","Vantaa","Visby","Strängnäs",
 			"Tampere","Skara","Lödöse","Oulu","Växjö","Jyväskylä","Gothenburg","Örebro","Lahti","Helsingborg","Jönköping","Kuopio",
-			"Norrköping","Sundsvall","Kouvola","Karlstad","Umeå","Pori","Ystad","Paviken","Vaasa"]
+			"Norrköping","Sundsvall","Kouvola","Karlstad","Umeå","Pori","Ystad","Paviken","Vaasa"],
+		"spyNames": ["Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"]
 	},
 // City States
 	{
