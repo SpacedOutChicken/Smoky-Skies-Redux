@@ -654,7 +654,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "uniques": ["New [Air] units start with [15] Experience [in this city]", "New [Airship] units start with [15] Experience [in this city]",
-            "[+15]% Production when constructing [Airship] units [in this city]"],
+            "[+10]% Production when constructing [Airship] units [in this city]", "[+10]% Production when constructing [Air] units [in this city]"],
         "requiredTech": "Uranography"
     },    
     {

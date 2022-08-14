@@ -399,10 +399,10 @@
 		"rangedStrength": 18,
 		"range": 3,
 		"interceptRange": 3,
-		"cost": 400,
+		"cost": 200,
 		"requiredTech": "Propulsion",
 		"hurryCostModifier": 20,
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+300]% Strength <vs [Airship] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+300]% Strength <vs [Airship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
