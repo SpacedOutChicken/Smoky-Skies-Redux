@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Offshore Platform",
-		"techRequired": "Vertical Integration",
+		"techRequired": "Biology",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
@@ -107,7 +107,6 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
 		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -182,7 +181,7 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Analog Computation]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
@@ -210,7 +209,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Removes removable features when built"
 		]
 	},
@@ -223,7 +222,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{

@@ -143,7 +143,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -221,7 +221,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	
@@ -298,7 +298,7 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Formation I"],
 		"obsoleteTech": "Steam Power",
 		"attackSound": "horse"
@@ -336,7 +336,7 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -468,6 +468,7 @@
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
 		"uniques": ["[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
 			"Unable to capture cities",
 			 "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
@@ -506,6 +507,7 @@
 		"requiredResource": "Aetherium",
 		"uniques": ["Can carry [1] [Air] units",
 			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
 			"Unable to capture cities",
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
@@ -543,51 +545,5 @@
 		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
-	},
-	
-	/* Spaceship Parts */
-
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	
-	{
-		"name": "Moonshot Propellant",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Infernal Combustion",
-		"requiredResource": "Oil",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [3] [Oil]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [3] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "Moonshot Capsule",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Expedition",
-		"requiredResource": "Aetherium",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Aetherium]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "Moonshot Barrel",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Galvanomagnetism",
-		"requiredResource": "Luboric",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Luboric]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "Moonshot Targeting Component",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Uranography",
-		"requiredResource": "Aetherium",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Consumes [1] [Aetherium]", "Only available <if [Moonshot Program] is constructed>", "Uncapturable", "Can be added to [The Moon-cannon] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
 	}
 ]
