@@ -1,9 +1,9 @@
 [
 	{
         "name": "Honorable",
-        "victoryScreenHeader": "Build the 5 Honorable Titles\nto win!",
+        "victoryScreenHeader": "Build the 5 Honourable Titles\nto win!",
         "milestones": ["Build [Defender of Progress]","Build [Grand Philanthropist]","Build [Captain of Industry]","Build [Lord of Refinement]","Build [Defender of Progress]"],
-        "victoryString": "You have achieved victory through the magnificence of your honorable titles. Your civilization's greatness have astounded the world! Its magnificence will forever be remembered in futures yet to come.",
+        "victoryString": "You have achieved victory through the magnificence of your honourable titles. Your civilization's greatness has astounded the world! Its magnificence will forever be remembered in futures yet to come.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {

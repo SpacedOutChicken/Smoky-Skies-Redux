@@ -61,7 +61,7 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
+		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -195,7 +195,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 	{
@@ -274,7 +274,6 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -324,6 +323,7 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
+		"obsoleteTech": "Economic Imperialism",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},

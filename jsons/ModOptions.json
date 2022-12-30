@@ -1,5 +1,8 @@
 {
     "isBaseRuleset": true,
-    "uniques": ["Disable religion",
-        "Can trade civilization introductions for [100] Gold"]
+    "uniques": [
+        "Disable religion",
+        "Can convert gold to science with sliders",
+        "Can trade civilization introductions for [100] Gold"
+    ]
 }

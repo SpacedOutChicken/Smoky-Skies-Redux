@@ -12,23 +12,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [33, 150, 243],
         "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
         "startPercent": 50,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityIndustrial"
     },
     {
         "name": "Classical era",
@@ -40,23 +29,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [33, 150, 243],
         "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
         "startPercent": 50,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityIndustrial"
     },
     {
         "name": "Medieval era",
@@ -68,23 +46,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [33, 150, 243],
         "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
         "startPercent": 50,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityIndustrial"
     },
     {
         "name": "Renaissance era",
@@ -96,23 +63,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [33, 150, 243],
         "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
         "startPercent": 50,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityIndustrial"
     },
     {
         "name": "Industrial era",
@@ -124,23 +80,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
-        "iconRGB": [33, 150, 243],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
+        "iconRGB": [63, 81, 182],
         "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
         "startPercent": 50,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityIndustrial"
     },
     {
         "name": "Steam era",
@@ -152,23 +97,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [33, 150, 243],
         "baseUnitBuyCost": 600,
+        "embarkDefense": 13,
         "startPercent": 65,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityModern"
     },
     {
         "name": "Airship era",
@@ -180,23 +114,12 @@
         "startingGold": 200,
         "startingCulture": 0,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
+        "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop"],
         "iconRGB": [0, 150, 136],
         "baseUnitBuyCost": 800,
+        "embarkDefense": 16,
         "startPercent": 65,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityAtomic"
     },
     {
         "name": "Future era",
@@ -211,19 +134,8 @@
         "settlerBuildings": ["Monument","Amphitheater","Opera House","Aqueduct","Market","Bank","Barracks","Walls","Castle","Colosseum","Theatre","Granary","Library","Lighthouse","Public School","University","Workshop","Public School"],
         "iconRGB": [76, 176, 81],
         "baseUnitBuyCost": 1000,
+        "embarkDefense": 20,
         "startPercent": 80,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-
-        }
+        "citySound": "cityInformation"
     }
 ]
