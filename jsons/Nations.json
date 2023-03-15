@@ -243,7 +243,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [153,0,76],
+		"innerColor": [168,38,102],
 		"cities": ["Kabul"]
 	},
 	{
@@ -309,7 +309,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [0,0,255],
+		"innerColor": [51,51,255],
 		"cities": ["Hanoi"]
 	},
 	{
@@ -394,7 +394,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
 	}
 	        	

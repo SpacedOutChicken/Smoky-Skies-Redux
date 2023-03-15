@@ -149,7 +149,7 @@
 				"uniques": ["[8] units cost no maintenance"],
 				"requires": ["Trade Unions"],				
 				"row": 2,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Mercantilism",
