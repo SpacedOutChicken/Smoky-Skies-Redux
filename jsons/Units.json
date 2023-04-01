@@ -365,6 +365,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Propulsion",
 		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]","Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
@@ -376,6 +377,7 @@
 		"cost": 375,
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Landship",
+		"obsoleteTech": "Landships",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -470,6 +472,7 @@
 		"requiredTech": "Airships",
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
+		"obsoleteTech": "Sky Fortress",
 		"uniques": ["[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Unable to capture cities",

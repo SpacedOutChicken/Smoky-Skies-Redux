@@ -4,63 +4,70 @@
     {
 		"name": "Defender of Progress",
 		"cost": 1500,
-		"requiredTech": "Landships",
 		"uniques": [
             "Honourable Title",
             "Triggers a global alert upon completion",
             "Requires a [Arsenal] in all cities",
             "Limited to [1] per Civilization",
             "Cannot be purchased",
-            "Unsellable"
+            "Unsellable",
+            "Hidden when [Honorable] Victory is disabled",
+            "Never destroyed when the city is captured"
         ]
     },
     {
 		"name": "Grand Philanthropist",
 		"cost": 1500,
-		"requiredTech": "Noblesse Oblige",
-		"uniques": [
-            "Honourable Title",
-            "Triggers a global alert upon completion",
-            "Limited to [1] per Civilization",
-            "Cannot be purchased",
-            "Unsellable"
-        ]
-    },
-    {
-		"name": "Captain of Industry",
-		"cost": 1500,
-		"requiredTech": "Automata",
+        "requiredTech": "Technocracy",
 		"uniques": [
             "Honourable Title",
             "Triggers a global alert upon completion",
             "Limited to [1] per Civilization",
             "Cannot be purchased",
             "Unsellable",
-            "May buy [Master of Wealth] buildings for [50000] [Gold] [in all cities]"
+            "Hidden when [Honorable] Victory is disabled",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+		"name": "Captain of Industry",
+		"cost": 1500,
+		"uniques": [
+            "Honourable Title",
+            "Requires a [Factory] in at least [3] cities",
+            "Triggers a global alert upon completion",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable",
+            "Hidden when [Honorable] Victory is disabled",
+            "Never destroyed when the city is captured"
         ]
     },    
     {
 		"name": "Lord of Refinement",
 		"cost": 2000,
-		"requiredTech": "Technocracy",
-		"uniques": ["Honourable Title",
-		"Hidden until [5] social policy branches have been completed",
-		"Triggers a global alert upon completion",
-		"Limited to [1] per Civilization",
-		"Cannot be purchased",
-		"Unsellable",
-		"May buy [Master of Wealth] buildings for [50000] [Gold] [in all cities]"]
+		"uniques": [
+            "Honourable Title",
+            "Hidden until [5] social policy branches have been completed",
+            "Triggers a global alert upon completion",
+            "Limited to [1] per Civilization",
+            "Cannot be purchased",
+            "Unsellable",
+            "May buy [Master of Wealth] buildings for [10000] [Gold] [in all cities]",
+            "Hidden when [Honorable] Victory is disabled",
+            "Never destroyed when the city is captured"
+        ]
     },
     {
 		"name": "Master of Wealth",
-		"cost": 50000,
-		"requiredTech": "Perpetual Motion",
 		"uniques": [
             "Honourable Title",
             "Triggers a global alert upon completion",
 		    "Limited to [1] per Civilization",
             "Unbuildable",
-            "Unsellable"
+            "Unsellable",
+            "Hidden when [Honorable] Victory is disabled",
+            "Never destroyed when the city is captured"
         ]
     },
 

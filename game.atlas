@@ -256,13 +256,6 @@ PolicyBranchIcons/Military
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Religious Tolerance
-  rotate: false
-  xy: 278, 109
-  size: 48, 50
-  orig: 48, 50
-  offset: 0, 0
-  index: -1
 ResourceIcons/Aetherium
   rotate: false
   xy: 4, 170
@@ -454,21 +447,21 @@ TileSets/FantasyHex/Tiles/City center-Airship era
   index: -1
 TileSets/FantasyHex/Tiles/City center-Future era
   rotate: false
-  xy: 1192, 283
+  xy: 278, 125
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Steam era
   rotate: false
-  xy: 1250, 342
+  xy: 1192, 284
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Luboric
   rotate: false
-  xy: 414, 131
+  xy: 398, 131
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -489,49 +482,70 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Airship
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Civilian
   rotate: false
-  xy: 334, 131
+  xy: 1250, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 1192, 247
+  xy: 318, 131
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Settler
   rotate: false
-  xy: 1290, 347
+  xy: 1192, 248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Sky Fortress
   rotate: false
-  xy: 1192, 199
+  xy: 1192, 200
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sky Fortress
   rotate: false
-  xy: 1192, 199
+  xy: 1192, 200
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Ironclad
   rotate: false
-  xy: 374, 131
+  xy: 1290, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Leviathan
   rotate: false
+  xy: 358, 131
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Landship
+  rotate: false
   xy: 1330, 347
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler
+  rotate: false
+  xy: 1370, 347
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker
+  rotate: false
+  xy: 438, 131
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
