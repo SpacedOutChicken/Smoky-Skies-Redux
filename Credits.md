@@ -4,3 +4,8 @@ Art by Red11, LynxRo, GeneralWadaling, Ravignir
 "Remember me"-DiddlyDoo145
 
 [Publicity image](https://commons.wikimedia.org/wiki/File:Zeppelin_(PSF).png) by Pearson Scott Foresman
+
+## From the Noun Project:
+
+Buildings:
+* Subterranean Colony: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
