@@ -448,7 +448,7 @@
         "name": "Analytical Engine",
         "production": 8,
         "isNationalWonder": true,
-        "cost": 750,
+        "cost": 412,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city","Requires a [Difference Engine] in all cities"],
         "requiredTech": "Analog Computation"
@@ -478,9 +478,9 @@
         "gold": 6,
         "culture": 3,
         "isNationalWonder": true,
-        "cost": 750,
+        "cost": 412,
         "maintenance": 0,
-        "uniques": ["Requires a [Grand Mansion] in all cities"],
+        "uniques": ["Requires a [Grand Mansion] in all cities", "Cost increases by [30] per owned city"],
         "requiredTech": "Economic Imperialism"
     },
     {
@@ -515,7 +515,7 @@
         "gold": 6,
         "science": 3,
         "isNationalWonder": true,
-        "cost": 750,
+        "cost": 412,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city", "Requires a [Patent Office] in all cities"],
         "requiredTech": "Airships"
@@ -531,6 +531,7 @@
     },
     {
         "name": "Stadium",
+        "requiredBuilding": "Theatre",
         "happiness": 4,
         "cost": 500,
         "maintenance": 2,
@@ -540,6 +541,7 @@
         "name": "Grandstand",
         "replaces": "Stadium",
         "uniqueTo": "Dalmace",
+        "requiredBuilding": "Theatre",
         "culture": 2,
         "happiness": 4,
         "cost": 500,
@@ -673,6 +675,7 @@
     },    
     {
         "name": "Military Base",
+        "requiredBuilding": "Arsenal",
         "cost": 500,
         "cityStrength": 12,
         "cityHealth": 25,
@@ -724,7 +727,7 @@
         "culture": 5,
         "percentStatBonus": {"production": 15}, 
         "isNationalWonder": true,
-        "cost": 750,
+        "cost": 412,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city", "Requires a [Subterranean Outpost] in all cities"],
         "requiredTech": "Subterranean Exploration"
