@@ -9,3 +9,4 @@ Art by Red11, LynxRo, GeneralWadaling, Ravignir
 
 Buildings:
 * Subterranean Colony: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
+* Subterranean Outpost: [drill](https://thenounproject.com/icon/drill-1132331/) by Andrejs Kirma, LV
