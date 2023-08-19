@@ -8,7 +8,9 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
 
-        "[-1] Sight <for [Embarked] units>"
+        "[-1] Sight <for [Embarked] units>",
+
+        "Aircraft"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
