@@ -254,7 +254,7 @@
                         "row": 6,
                         "prerequisites": ["Civil Service","Guilds"],
                         "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory",
-                        "uniques": ["Starting tech"]
+                        "uniques": ["Starting tech","Enables Defensive Pacts"]
 
                   },
                   {
