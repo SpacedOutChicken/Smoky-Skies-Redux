@@ -5,6 +5,8 @@ Art by Red11, LynxRo, GeneralWadaling, Ravignir
 
 [Publicity image](https://commons.wikimedia.org/wiki/File:Zeppelin_(PSF).png) by Pearson Scott Foresman
 
+[Preview image](https://commons.wikimedia.org/wiki/File:Ballon_poisson_de_9019s368w_0_ng451j60n.tiff) by A. Molynk
+
 ## From the Noun Project:
 
 Buildings:
