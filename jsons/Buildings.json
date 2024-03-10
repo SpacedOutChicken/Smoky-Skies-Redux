@@ -7,7 +7,7 @@
 		"uniques": [
             "Honourable Title",
             "Triggers a global alert upon completion",
-            "Requires a [Arsenal] in all cities",
+            "Only available <if [Arsenal] is constructed in all [non-[Puppeted]] cities>",
             "Limited to [1] per Civilization",
             "Cannot be purchased",
             "Unsellable",
@@ -34,7 +34,7 @@
 		"cost": 1500,
 		"uniques": [
             "Honourable Title",
-            "Requires a [Factory] in at least [3] cities",
+            "Only available <if [Factory] is constructed in at least [3] of [non-[Puppeted]] cities>",
             "Triggers a global alert upon completion",
             "Limited to [1] per Civilization",
             "Cannot be purchased",
@@ -450,7 +450,7 @@
         "isNationalWonder": true,
         "cost": 412,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city","Requires a [Difference Engine] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city","Only available <if [Difference Engine] is constructed in all [non-[Puppeted]] cities>"],
         "requiredTech": "Analog Computation"
     },
     {
@@ -480,7 +480,7 @@
         "isNationalWonder": true,
         "cost": 412,
         "maintenance": 0,
-        "uniques": ["Requires a [Grand Mansion] in all cities", "Cost increases by [30] per owned city"],
+        "uniques": ["Only available <if [Grand Mansion] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
         "requiredTech": "Economic Imperialism"
     },
     {
@@ -517,7 +517,7 @@
         "isNationalWonder": true,
         "cost": 412,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city", "Requires a [Patent Office] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city", "Only available <if [Patent Office] is constructed in all [non-[Puppeted]] cities>"],
         "requiredTech": "Airships"
     },
     {
@@ -701,7 +701,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city", "Requires a [Philanthroporium] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city", "Only available <if [Philanthroporium] is constructed in all [non-[Puppeted]] cities>"],
         "requiredTech": "Radio"
     },
     {
@@ -729,7 +729,7 @@
         "isNationalWonder": true,
         "cost": 412,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city", "Requires a [Subterranean Outpost] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city", "Only available <if [Subterranean Outpost] is constructed in all [non-[Puppeted]] cities>"],
         "requiredTech": "Subterranean Exploration"
     },
 	{
@@ -751,7 +751,7 @@
         "isNationalWonder": true,
         "cost": 1000,
         "maintenance": 0,
-        "uniques": ["Requires a [Automated Factory] in all cities"],
+        "uniques": ["Cost increases by [30] per owned city", "Only available <if [Automated Factory] is constructed in all [non-[Puppeted]] cities>"],
         "requiredTech": "Perpetual Motion"
     }
 ]
