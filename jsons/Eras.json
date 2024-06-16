@@ -68,6 +68,7 @@
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
         "startPercent": 50,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "citySound": "cityIndustrial"
     },
     {
@@ -85,6 +86,7 @@
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
         "startPercent": 50,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "citySound": "cityIndustrial"
     },
     {
@@ -102,6 +104,7 @@
         "baseUnitBuyCost": 600,
         "embarkDefense": 13,
         "startPercent": 65,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "citySound": "cityModern"
     },
     {
@@ -119,6 +122,7 @@
         "baseUnitBuyCost": 800,
         "embarkDefense": 16,
         "startPercent": 65,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "citySound": "cityAtomic"
     },
     {
@@ -136,6 +140,7 @@
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
         "startPercent": 80,
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "citySound": "cityInformation"
     }
 ]

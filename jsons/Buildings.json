@@ -326,6 +326,14 @@
         "requiredTech": "Banking"
     },
     {
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Banking"
+    },
+    {
         "name": "Theatre",
         "happiness": 3,
         "hurryCostModifier": 10,
