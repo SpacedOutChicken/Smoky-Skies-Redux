@@ -520,5 +520,9 @@
 	{
 		"name": "[Privateer] ability",
 		"uniques": ["May capture killed [Water] units"]
+	},
+	{	// For barbarian water units
+		"name": "Unable to pillage tiles",
+		"uniques": ["Unable to pillage tiles"]
 	}
 ]
