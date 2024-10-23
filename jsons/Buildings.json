@@ -11,7 +11,7 @@
             "Limited to [1] per Civilization",
             "Cannot be purchased",
             "Unsellable",
-            "Hidden when [Honorable] Victory is disabled",
+            "Only available <when [Honorable] Victory is enabled>",
             "Never destroyed when the city is captured"
         ]
     },
@@ -25,7 +25,7 @@
             "Limited to [1] per Civilization",
             "Cannot be purchased",
             "Unsellable",
-            "Hidden when [Honorable] Victory is disabled",
+            "Only available <when [Honorable] Victory is enabled>",
             "Never destroyed when the city is captured"
         ]
     },
@@ -39,7 +39,7 @@
             "Limited to [1] per Civilization",
             "Cannot be purchased",
             "Unsellable",
-            "Hidden when [Honorable] Victory is disabled",
+            "Only available <when [Honorable] Victory is enabled>",
             "Never destroyed when the city is captured"
         ]
     },    
@@ -54,7 +54,7 @@
             "Cannot be purchased",
             "Unsellable",
             "May buy [Master of Wealth] buildings for [10000] [Gold] [in all cities]",
-            "Hidden when [Honorable] Victory is disabled",
+            "Only available <when [Honorable] Victory is enabled>",
             "Never destroyed when the city is captured"
         ]
     },
@@ -66,7 +66,7 @@
 		    "Limited to [1] per Civilization",
             "Unbuildable",
             "Unsellable",
-            "Hidden when [Honorable] Victory is disabled",
+            "Only available <when [Honorable] Victory is enabled>",
             "Never destroyed when the city is captured"
         ]
     },
@@ -330,7 +330,7 @@
         "cost": 160,
         "maintenance": 1,
         "hurryCostModifier": 10,
-        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredTech": "Banking"
     },
     {
