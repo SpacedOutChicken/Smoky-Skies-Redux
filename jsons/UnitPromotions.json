@@ -524,5 +524,10 @@
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
+	},
+	// population boost for founding new cities
+	{
+		"name": "Plus One",
+		"uniques": ["[+1] population [in this city] <in [City center] tiles> <upon founding a city>", "Will not be displayed in Civilopedia"]
 	}
 ]

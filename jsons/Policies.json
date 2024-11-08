@@ -6,7 +6,11 @@
 		"policies": [
 			{
 				"name": "United Front",
-				"uniques": ["[+10]% Production when constructing [All] wonders [in all cities]", "[+1] population in a random city <upon founding a city>"],
+				"uniques": [
+					"[+10]% Production when constructing [All] wonders [in all cities]",
+					"[Settler] units gain the [Plus One] promotion <hidden from users>",
+					"Comment [Cities start with one extra population when founded]"
+				],
 				"row": 1,
 				"column": 2
 			},
