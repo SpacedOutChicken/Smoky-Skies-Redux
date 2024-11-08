@@ -280,6 +280,13 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	{
+        "name": "River",
+        "type": "TerrainFeature",
+        "gold": 1,
+        "movementCost": 0,
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"]
+    },
 
 	// Natural Wonders
 	{
