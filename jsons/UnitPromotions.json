@@ -5,7 +5,9 @@
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Airship"],
         "row": 0,
-        "column": 0
+        "column": 0,
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
     },
 
 	// Ranged+Siege
