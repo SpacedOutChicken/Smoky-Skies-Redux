@@ -468,12 +468,19 @@ TileSets/FantasyHex/Tiles/City center-Steam era
   index: -1
 TileSets/FantasyHex/Tiles/Luboric
   rotate: false
-  xy: 414, 131
+  xy: 1370, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Airship
+  rotate: false
+  xy: 1949, 385
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Airship
   rotate: false
   xy: 1949, 385
   size: 32, 40
@@ -501,6 +508,20 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Settler
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Sky Fortress
+  rotate: false
+  xy: 1192, 199
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sky Fortress
+  rotate: false
+  xy: 1192, 199
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Land Ironclad
   rotate: false
   xy: 374, 131
@@ -510,35 +531,28 @@ TileSets/FantasyHex/Units/Land Ironclad
   index: -1
 TileSets/FantasyHex/Units/Land Leviathan
   rotate: false
-  xy: 1192, 211
+  xy: 1330, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship
   rotate: false
-  xy: 1330, 347
+  xy: 414, 131
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler
   rotate: false
-  xy: 1192, 175
+  xy: 454, 131
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sky Fortress
-  rotate: false
-  xy: 1370, 335
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Worker
   rotate: false
-  xy: 454, 131
+  xy: 1410, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
