@@ -48,7 +48,7 @@
 		"cost": 2000,
 		"uniques": [
             "Honourable Title",
-            "Hidden until [5] social policy branches have been completed",
+            "Unavailable <when number of [Completed Policy branches] is less than [5]>",
             "Triggers a global alert upon completion",
             "Limited to [1] per Civilization",
             "Cannot be purchased",
