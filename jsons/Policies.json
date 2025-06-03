@@ -96,7 +96,7 @@
 		"policies": [
 			{
 				"name": "Socialism",
-				"uniques": ["[-15]% maintenance cost for buildings [in all cities]"],
+				"uniques": ["[-15]% maintenance cost for [all] buildings [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
