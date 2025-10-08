@@ -78,7 +78,7 @@
                         "row": 3,
                         "prerequisites": ["Pottery"],
                         "quote": "'He who destroys a good book kills reason itself.' - John Milton",
-                        "uniques": ["Starting tech"]
+                        "uniques": ["Starting tech", "Enables establishment of embassies"]
                   },
                   {
                         "name": "Trapping",
@@ -593,7 +593,7 @@
                         "row": 8,
                         "prerequisites": ["Infernal Combustion"],
                         "quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
-                  }
+                  },
                   {
                         "name": "Civil Defense",
                         "row": 9,
